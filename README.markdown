@@ -12,7 +12,7 @@ Masters of Engineering in Computer Science 08/2010 - 05/2010 (Expected)
 
 **Georgia State University, Atlanta, Georgia**  
 Computer Science Post-Baccalaureate 01/2008 - 05/2010  
-Cumulative GPA: 3.98
+Cumulative GPA: 4.02
 
 **Georgia Institute of Technology, Atlanta, Georgia**  
 Bachelor of Science in Electrical Engineering 08/2000 - 07/2004  
