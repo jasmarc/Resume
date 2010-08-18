@@ -36,11 +36,11 @@ Relevant Coursework:
 Experience:
 ===========
 - **RSUI Group, Inc., Atlanta, Georgia**  
-*Software Developer 10/2006 - Present*  
+*Software Developer 10/2006 - 08/2010*  
 -- Development of internal enterprise applications for insurance in C#
 
 - **The Princeton Review, Atlanta, Georgia**  
-*Instructor/Tutor 05/2007 - Present*  
+*Instructor/Tutor 05/2007 - 08/2010*  
 -- Test preparation instructor for SAT and GRE
 
 - **Agentek, Inc., Atlanta, Georgia**  
