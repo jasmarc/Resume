@@ -41,7 +41,7 @@ Experience:
 
 - **The Princeton Review, Atlanta, Georgia**  
 *Instructor/Tutor 05/2007 - 08/2010*  
--- Worked with groups of high-school students as large as 10 as well as provided private one-on-one private tutoring in both the math and verbal sections of the SAT, helping students to improve their scores.
+-- Worked with groups of high-school students as large as 10 as well as provided one-on-one private tutoring in both the math and verbal sections of the SAT, helping students to improve their scores.
 
 - **Agentek, Inc., Atlanta, Georgia**  
 *Software Developer 10/2004 - 10/2006*  
