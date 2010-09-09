@@ -37,7 +37,7 @@ Experience:
 ===========
 - **RSUI Group, Inc., Atlanta, Georgia**  
 *Software Developer 10/2006 - 08/2010*  
--- Development of internal enterprise applications for insurance in C#
+-- Developed internal enterprise applications for insurance in C#, improving the productivity of RSUI's underwriters, underwriting assistants, claims workers, and outward facing partners by facilitating the transferral of policy and claims information into a central database for easy research and retrieval. During my tenure at RSUI, I also played an instrumental role in a large group effort within the entire company to take RSUI paperless. This effort required me to integrate our existing applications with ImageRight, a large third-party enterprise application for handling imaged documents.
 
 - **The Princeton Review, Atlanta, Georgia**  
 *Instructor/Tutor 05/2007 - 08/2010*  
@@ -45,7 +45,7 @@ Experience:
 
 - **Agentek, Inc., Atlanta, Georgia**  
 *Software Developer 10/2004 - 10/2006*  
--- Windows Mobile development on ruggedized field-use devices for Fortune 500 companies such as Maytag and IKON.
+-- Developed full mobile solutions and provided back-end integration for large corporations, improving efficiency by providing tracking, routing, and data collection all in real time. Agentek specializes in solutions geared towards the trucking and field service industries, primarily utilizing ruggedized mobile devices for field data collection.
 
 - **Self-Employed, Atlanta, Georgia**  
 *Software Developer/Web Developer 01/2004 - 10/2004*  
