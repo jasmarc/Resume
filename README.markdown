@@ -30,7 +30,7 @@ Extra Curricular:
 
 Relevant Coursework:
 --------------------
-- Cornell: Analysis of Algorithms, Software Engineering, Information Retrieval, Numerical Analysis
+- Cornell: Analysis of Algorithms, Software Engineering, Information Retrieval, Artificial Intelligence
 - GSU: Computer Organization and Programming, Computer Architecture, Operating Systems, Automata, Programming Language Concepts, Discrete Math, Math Models for Computer Science.
 - Gatech: Intro to CS, Object-Oriented Programming.
 
