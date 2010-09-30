@@ -1,3 +1,6 @@
+PDF Version [here](http://github.com/jasmarc/Resume/raw/master//resume.pdf)
+===========================================================================
+
 Jason Marcell  
 3777 Peachtree Rd NE Unit 1105  
 Atlanta, GA 30319  
