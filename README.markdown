@@ -72,4 +72,4 @@ Experience:
 
 Technologies:
 =============
-Java, C, C#, NHibernate, NUnit, Rhino Mocks, Ruby/Rails, Objective-C, Cocoa
+C#, Subversion, Git, Test-Driven Development, Continuous Integration, NHibernate, NUnit, Rhino Mocks, Ruby/Rails, ASP.Net MVC, jQuery, C, Java, Objective-C, Cocoa
