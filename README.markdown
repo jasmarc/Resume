@@ -1,3 +1,6 @@
+PDF Version [here](http://github.com/jasmarc/Resume/raw/master//resume.pdf)
+===========================================================================
+
 Jason Marcell  
 3777 Peachtree Rd NE Unit 1105  
 Atlanta, GA 30319  
@@ -69,4 +72,4 @@ Experience:
 
 Technologies:
 =============
-Java, C, C#, NHibernate, NUnit, Rhino Mocks, Ruby/Rails, Objective-C, Cocoa
+C#, Subversion, Git, Test-Driven Development, Continuous Integration, NHibernate, NUnit, Rhino Mocks, Ruby/Rails, ASP.Net MVC, jQuery, C, Java, Objective-C, Cocoa
