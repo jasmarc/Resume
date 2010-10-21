@@ -1,5 +1,7 @@
 PDF Version [here](http://github.com/jasmarc/Resume/raw/master//resume.pdf)
 ===========================================================================
+My Project List is located [here](http://github.com/jasmarc/Resume/blob/master/projects.markdown)
+=================================================================================================
 
 Jason Marcell  
 3777 Peachtree Rd NE Unit 1105  
