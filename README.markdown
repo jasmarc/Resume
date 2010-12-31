@@ -14,6 +14,7 @@ Education:
 ==========
 **Cornell University, Ithaca, NY**  
 Masters of Engineering in Computer Science 08/2010 - 05/2011 (Expected)
+Cumulative GPA: 3.71
 
 **Georgia State University, Atlanta, Georgia**  
 Computer Science Post-Baccalaureate 01/2008 - 05/2010  

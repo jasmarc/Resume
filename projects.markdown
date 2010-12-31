@@ -53,3 +53,22 @@ Over the years I've occasionally tinkered with MythTV and other home-brew DVR pr
 Small Computers
 ---------------
 I recently purchased two small computers: a FitPC and a wallwart computer for experimenting with ultra small-scale linux servers. This is closely related to my home theater experiments, as the FitPC was purchased with intention of being a front-end video server.
+
+Information Retrieval Class
+---------------------------
+http://www.infosci.cornell.edu/Courses/info4300/2010fa/
+https://github.com/jasmarc/kmeans
+https://github.com/jasmarc/Singular-Value-Decomposition
+https://github.com/jasmarc/PageRank
+https://github.com/jasmarc/Search-Engine
+
+Software Engineering Class
+--------------------------
+http://www.cs.cornell.edu/courses/CS5150/2010fa/projects.html
+http://textmed.net/
+
+Machine Learning for ICS
+------------------------
+http://jasmarc.posterous.com/tag/cornellmeng
+http://blogs.cornell.edu/ml4ics/
+https://github.com/jasmarc/mRVM
