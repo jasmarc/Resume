@@ -13,7 +13,7 @@ jasonmarcell@gmail.com
 Education:
 ==========
 **Cornell University, Ithaca, NY**  
-Masters of Engineering in Computer Science 08/2010 - 05/2011 (Expected)
+Masters of Engineering in Computer Science 08/2010 - 05/2011 (Expected)  
 Cumulative GPA: 3.71
 
 **Georgia State University, Atlanta, Georgia**  
