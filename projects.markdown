@@ -1,3 +1,27 @@
+Machine Learning for ICS
+------------------------
+For my masters project I am working for Cornell’s Institute of Computational Sustainability under [Dr. Theodoros Damoulas](http://www.cs.cornell.edu/~damoulas/Site/td.html) and [Dr. Carla Gomes](http://www.cs.cornell.edu/gomes/). I am currently working on a C++ implementation of two Bayesian classification algorithms, the multi-class multi-kernel Relevance Vector Machines (mRVMs). More information can be found on my [blog](http://jasmarc.posterous.com/tag/cornellmeng), the [ML4ICS blog](http://blogs.cornell.edu/ml4ics/), and on github where I have [my code](https://github.com/jasmarc/mRVM).
+
+Information Retrieval Class
+---------------------------
+For my [Information Retrieval](http://www.infosci.cornell.edu/Courses/info4300/2010fa/) class at Cornell University, my projects included a
+[search engine using tf.idf weighting](https://github.com/jasmarc/Search-Engine), a
+[PageRank-based search engine](https://github.com/jasmarc/PageRank), a
+[singular value decomposition recommendation engine](https://github.com/jasmarc/Singular-Value-Decomposition), and an implementation of
+[k-means clustering](https://github.com/jasmarc/kmeans).
+
+Software Engineering Class
+--------------------------
+For my [Software Engineering](http://www.cs.cornell.edu/courses/CS5150/2010fa/projects.html) class at Cornell University, I worked on a team of seven students on a real-world project called [textmed.net](http://textmed.net/). The objective of the project was to provide a text-messaged-based system for people in developing countries to seek medical assistance. Users of the system send short messages to textmed.net. The messages are then routed to medical professionals who then respond accordingly. The project was successful and is currently being used in Nigeria.
+
+Subversion Talk
+---------------
+At Georgia State University, I was invited by the Math Department's Software Interest Group to give a talk on Subversion. The audience was  composed of undergraduates, graduate students, and some professors of the math department, most of whom were of a technical background but were not, at the time, familiar with the concept of revision control. The purpose of the talk was to introduce the idea of revision control for the application of storing, backing up, branching, tagging, and working collaboratively with academic source code such as LaTeX, Matlab code, etc.
+
+Python Robot Project
+--------------------
+I worked with Dr. King at Georgia State, Dr. Summet at Georgia Tech, and Dr. Blank at Bryn Mawr, helping with the IPRE robotics program. I worked on the library code for python-based robots that are used for introductory Computer Science classes.
+
 Raycasting and Wirefram Polygon
 -------------------------------
 During the mid-nineties, I was very interested in game programming. Working with the book Tricks of the Game Programming Gurus, I was able to implement a few of the concepts that I read about such as ray-casting and wireframe polygons. Some of that work involved writing lower-level assembly code for speed, such as an implementation of Bresenham's line drawing algorithm for approximating arbitrary straight lines in a grid.
@@ -34,14 +58,6 @@ Hudson
 ------
 At this same company, I took the initiative to instate a continuous integration server. I chose to use Hudson because of its ease of deployment. The program ran on a server and would receive notifications from the central subversion server when developers changed code. It would then check the code out, perform builds, and run all unit tests. Then Hudson would email the appropriate parties if anything was broken.
 
-Subversion Talk
----------------
-At Georgia State University, I was invited by the Math Department's Software Interest Group to give a talk on Subversion. The audience was  composed of undergraduates, graduate students, and some professors of the math department, most of whom were of a technical background but were not, at the time, familiar with the concept of revision control. The purpose of the talk was to introduce the idea of revision control for the application of storing, backing up, branching, tagging, and working collaboratively with academic source code such as LaTeX, Matlab code, etc.
-
-Python Robot Project
---------------------
-I worked with Dr. King at Georgia State, Dr. Summet at Georgia Tech, and Dr. Blank at Bryn Mawr, helping with the IPRE robotics program. I worked on the library code for python-based robots that are used for introductory Computer Science classes.
-
 Arduino + TTL Chips
 -------------------
 I occasionally tinker with an Arduino microcontroller, TTL logic gates, and 555 IC Timer circuits. My projects are usually small hacks and usually involve experimental tone generation or lighting up seven-segment displays.
@@ -53,22 +69,3 @@ Over the years I've occasionally tinkered with MythTV and other home-brew DVR pr
 Small Computers
 ---------------
 I recently purchased two small computers: a FitPC and a wallwart computer for experimenting with ultra small-scale linux servers. This is closely related to my home theater experiments, as the FitPC was purchased with intention of being a front-end video server.
-
-Information Retrieval Class
----------------------------
-http://www.infosci.cornell.edu/Courses/info4300/2010fa/
-https://github.com/jasmarc/kmeans
-https://github.com/jasmarc/Singular-Value-Decomposition
-https://github.com/jasmarc/PageRank
-https://github.com/jasmarc/Search-Engine
-
-Software Engineering Class
---------------------------
-http://www.cs.cornell.edu/courses/CS5150/2010fa/projects.html
-http://textmed.net/
-
-Machine Learning for ICS
-------------------------
-http://jasmarc.posterous.com/tag/cornellmeng
-http://blogs.cornell.edu/ml4ics/
-https://github.com/jasmarc/mRVM
