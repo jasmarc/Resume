@@ -14,24 +14,24 @@ Experience:
 ===========
 - **Apple, Inc., Cupertino, California**  
 *Software Engineer 10/2011 - Present*  
--- Create tools that exercise hardware functionality for the iPad, iPhone, iPod touch, and future Apple products.
--- Responsible for creating and maintaining test automation tools, stress tests, and data analysis/visualization tools.
+-- Create tools that exercise hardware functionality for the iPad, iPhone, iPod touch, and future Apple products.  
+-- Responsible for creating and maintaining test automation tools, stress tests, and data analysis/visualization tools.  
 
 - **Thermo Fisher Scientific, Inc., Billerica, Massachusetts**  
 *Software Engineer 07/2011 - 10/2011*  
--- Wrote custom software in C++ for embedded instruments that perform elemental analysis (http://www.niton.com/).
--- Wrote software for a new on-board GPS module that allows the user to capture coordinates along with their elemental data.
+-- Wrote custom software in C++ for embedded instruments that perform elemental analysis (http://www.niton.com/).  
+-- Wrote software for a new on-board GPS module that allows the user to capture coordinates along with their elemental data.  
 
 - **RSUI Group, Inc., Atlanta, Georgia**  
 *Software Engineer 10/2006 - 08/2010*  
--- Developed internal enterprise applications for insurance in C#
--- Wrote software that helped move RSUI towards becoming paperless
--- Improved the productivity of RSUI's insurance professionals by facilitating the movement and storage of policy information
+-- Developed internal enterprise applications for insurance in C#.  
+-- Wrote software that helped move RSUI towards becoming paperless.   
+-- Improved the productivity of RSUI's insurance professionals by facilitating the movement and storage of policy information.  
 
 - **Agentek, Inc., Atlanta, Georgia**  
 *Software Engineer 10/2004 - 10/2006*  
--- Wrote embedded software for ruggedized mobile devices for various Fortune 500 companies in the trucking and field service industries to improve field data collection and distribution in areas such as routing and package delivery and confirmation.
--- Wrote a scripting language in C++ to facilitate the automatic provisioning and configuration of ruggedized mobile devices.
+-- Wrote embedded software for ruggedized mobile devices for various Fortune 500 companies in the trucking and field service industries to improve field data collection and distribution in areas such as routing and package delivery and confirmation.  
+-- Wrote a scripting language in C++ to facilitate the automatic provisioning and configuration of ruggedized mobile devices.  
 
 Education:
 ==========
