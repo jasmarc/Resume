@@ -10,6 +10,29 @@ jasonmarcell@gmail.com
 [http://jmarcell.com](http://jmarcell.com)  
 404.425.9471
 
+Experience:
+===========
+- **Apple, Inc., Cupertino, California**  
+*Software Engineer 10/2011 - Present*  
+-- Create tools that exercise hardware functionality for the iPad, iPhone, iPod touch, and future Apple products.
+-- Responsible for creating and maintaining test automation tools, stress tests, and data analysis/visualization tools.
+
+- **Thermo Fisher Scientific, Inc., Billerica, Massachusetts**  
+*Software Engineer 07/2011 - 10/2011*  
+-- Wrote custom software in C++ for embedded instruments that perform elemental analysis (http://www.niton.com/).
+-- Wrote software for a new on-board GPS module that allows the user to capture coordinates along with their elemental data.
+
+- **RSUI Group, Inc., Atlanta, Georgia**  
+*Software Engineer 10/2006 - 08/2010*  
+-- Developed internal enterprise applications for insurance in C#
+-- Wrote software that helped move RSUI towards becoming paperless
+-- Improved the productivity of RSUI's insurance professionals by facilitating the movement and storage of policy information
+
+- **Agentek, Inc., Atlanta, Georgia**  
+*Software Engineer 10/2004 - 10/2006*  
+-- Wrote embedded software for ruggedized mobile devices for various Fortune 500 companies in the trucking and field service industries to improve field data collection and distribution in areas such as routing and package delivery and confirmation.
+-- Wrote a scripting language in C++ to facilitate the automatic provisioning and configuration of ruggedized mobile devices.
+
 Education:
 ==========
 **Cornell University, Ithaca, NY**  
@@ -40,39 +63,6 @@ Relevant Coursework:
 - GSU: Computer Organization and Programming, Computer Architecture, Operating Systems, Automata, Programming Language Concepts, Discrete Math, Math Models for Computer Science.
 - Gatech: Intro to CS, Object-Oriented Programming.
 
-Experience:
-===========
-- **RSUI Group, Inc., Atlanta, Georgia**  
-*Software Developer 10/2006 - 08/2010*  
--- Developed internal enterprise applications for insurance in C#, improving the productivity of RSUI's underwriters, underwriting assistants, claims workers, and outward facing partners by facilitating the transferral of policy and claims information into a central database for easy research and retrieval. During my tenure at RSUI, I also played an instrumental role in a large group effort within the entire company to take RSUI paperless. This effort required me to integrate our existing applications with ImageRight, a large third-party enterprise application for handling imaged documents.
-
-- **The Princeton Review, Atlanta, Georgia**  
-*Instructor/Tutor 05/2007 - 08/2010*  
--- Worked with groups of high-school students as large as 10 as well as provided one-on-one private tutoring in both the math and verbal sections of the SAT, helping students to improve their scores.
-
-- **Agentek, Inc., Atlanta, Georgia**  
-*Software Developer 10/2004 - 10/2006*  
--- Developed full mobile solutions and provided back-end integration for large corporations, improving efficiency by providing tracking, routing, and data collection all in real time. Agentek specializes in solutions geared towards the trucking and field service industries, primarily utilizing ruggedized mobile devices for field data collection.
-
-- **Self-Employed, Atlanta, Georgia**  
-*Software Developer/Web Developer 01/2004 - 10/2004*  
--- Setup a Linux server and designed a database with a web-based front end for a contact database which was used in the deployment of a survey on Hispanic business in Louisiana for the Hispanic Chamber of Commerce of Louisiana.  
--- Developed a website for Unlimited Design Resources, a company that does custom drapery and fabrics.
-
-- **Georgia Institute of Technology, Atlanta, Georgia**  
-*Office of Information Technology, Student Assistant 06/2004 - 07/2004*  
--- Providing technical support for the Ivan Allen College's schools of History and Public Policy, consisting of approximately 60 faculty, 40 graduate students and 9 administrative staff (approximately 100 computers).  
--- Setup and imaging of several new computers for faculty, including a graduate student lab consisting of 15 computers.
-
-- **Georgia Tech Naval Reserved Officers Training Corps, Atlanta, Georgia**  
-*Midshipman, USMCR 08/2000 - 12/2003*  
--- Participated in leadership training at Marine Corps Officer Candidate School at MCB Quantico, Va; Combined Arms Exercise at Marine Corps Base Twenty-nine Palms California; Leadership training at Naval Base Norfolk Virginia.  
-*System Administrator 01/2002 - 05/2003*  
--- Maintained a computer lab consisting of 5 workstations and a server.  
--- Maintained a database of user information.  
--- Moderated several email lists via a list server.  
--- Updated the code and content of the unit website.
-
 Technologies:
 =============
-C#, Subversion, Git, Test-Driven Development, Continuous Integration, NHibernate, NUnit, Rhino Mocks, Ruby/Rails, ASP.Net MVC, jQuery, C, Java, Objective-C, Cocoa
+Continuous Integration, Test-Driven Development, Testing, xUnit, Git, Subversion, Machine Learning, Natural Language Processing, Information Retrieval, Arduino, C, C#, Cocoa, Hibernate, Java, JUnit, NHibernate, NUnit, Objective-C, Rhino Mocks, Ruby, Rails
