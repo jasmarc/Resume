@@ -1,4 +1,5 @@
 *.aux
 *.fdb_latexmk
 *.log
+*.out
 .DS_Store
