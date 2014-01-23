@@ -1,68 +1,53 @@
-PDF Version [here](http://github.com/jasmarc/Resume/raw/master//resume.pdf)  
-My Project List is located [here](http://github.com/jasmarc/Resume/blob/master/projects.markdown)
+PDF Version [here](https://github.com/jasmarc/Resume/blob/master/resume.pdf?raw=true)  
 
 ----------
 
 Jason Marcell  
-3777 Peachtree Rd NE Unit 1105  
-Atlanta, GA 30319  
-jasonmarcell@gmail.com  
+870 E El Camino Real #301  
+Sunnyvale, CA 94087  
+[jasonmarcell@gmail.com](mailto:jasonmarcell@gmail.com)  
 [http://jmarcell.com](http://jmarcell.com)  
 404.425.9471
 
 Experience:
-===========
+-----------
 - **Apple, Inc., Cupertino, California**  
-*Software Engineer 10/2011 - Present*  
--- Create tools that exercise hardware functionality for the iPad, iPhone, iPod touch, and future Apple products.  
--- Responsible for creating and maintaining test automation tools, stress tests, and data analysis/visualization tools.  
+*Software Engineer 10/2011 - Present*
+  - I work in Hardware Reliability. I work very closely with the development and manufacturing of new iThings from prototype to launch. We abuse Apple products in the name of science.
+  - I write software that performs automated stressing of hardware and then analyzes large volumes of aggregate data to search for reliability issues. Our findings inform and drive product development.
 
 - **Thermo Fisher Scientific, Inc., Billerica, Massachusetts**  
-*Software Engineer 07/2011 - 10/2011*  
--- Wrote custom software in C++ for embedded instruments that perform elemental analysis (http://www.niton.com/).  
--- Wrote software for a new on-board GPS module that allows the user to capture coordinates along with their elemental data.  
+*Software Engineer 07/2011 - 10/2011*
+  - Okay, so there's this gun that you can point at an unknown thing like a piece of jewelry, for example. The pawn shop says it's solid gold, but you point your trusty ``tricorder" (yeah, like in Star Trek) at the ring and instantly the screen gives a full breakdown of the metallic compounds. Oh look, it's some sort of tungsten alloy. *phew* We were almost duped. Glad we didn't waste our money on that.
+  - This is not science-fiction. This gun exists and I wrote embedded C++ in order to facilitate adding a GPS module to one of these guns.
+  - Read more here: [http://www.niton.com/](http://www.niton.com/)
 
 - **RSUI Group, Inc., Atlanta, Georgia**  
-*Software Engineer 10/2006 - 08/2010*  
--- Developed internal enterprise applications for insurance in C#.  
--- Wrote software that helped move RSUI towards becoming paperless.   
--- Improved the productivity of RSUI's insurance professionals by facilitating the movement and storage of policy information.  
+*Software Engineer 10/2006 - 08/2010*
+  - I wrote software that helped move RSUI, a commercial insurance company, towards becoming paperless.
+  - I improved the productivity of RSUI's insurance professionals by facilitating the movement and storage of policy information.
 
 - **Agentek, Inc., Atlanta, Georgia**  
-*Software Engineer 10/2004 - 10/2006*  
--- Wrote embedded software for ruggedized mobile devices for various Fortune 500 companies in the trucking and field service industries to improve field data collection and distribution in areas such as routing and package delivery and confirmation.  
--- Wrote a scripting language in C++ to facilitate the automatic provisioning and configuration of ruggedized mobile devices.  
+*Software Engineer 10/2004 - 10/2006*
+  - I Wrote embedded software for ruggedized mobile devices for various Fortune 500 companies in the trucking and field service industries to improve field data collection and distribution in areas such as routing and package delivery and confirmation.
+  - I wrote a scripting language in C++ to facilitate the automatic provisioning and configuration of ruggedized mobile devices.
 
-Education:
-==========
-**Cornell University, Ithaca, NY**  
-Masters of Engineering in Computer Science 08/2010 - 05/2011 (Expected)  
-Cumulative GPA: 3.71
-
-**Georgia State University, Atlanta, Georgia**  
-Computer Science Post-Baccalaureate 01/2008 - 05/2010  
-Cumulative GPA: 4.02
-
-**Georgia Institute of Technology, Atlanta, Georgia**  
-Bachelor of Science in Electrical Engineering 08/2000 - 07/2004  
-Deans List 4 Semesters
-
-Research Experience:
---------------------
-Summer 2009 - I participated in undergraduate research with Dr. King at Georgia State, Dr. Summet at Georgia Tech, and Dr. Blank at Bryn Mawr, helping with the [IPRE Myro robotics program](http://www.roboteducation.org/). I helped document and add new functionality to Python library code used by the robots for the freshman computer science courses at GSU, GT, and Bryn Mawr.
-
-Extra Curricular:
------------------
-- I have participated in the student chapter of the [Association for Computing Machinery at GSU](http://acm.cs.gsu.edu) since 2008.  
-- For the 2009-2010 School Year, I was appointed Program Chair, the duties of which include contacting and arranging speakers for our guest lectures.  
-- I occasionally attend the [Atlanta Ruby Users Group](http://atlrug.org/), [Atlanta ALT.Net](http://atlalt.net/screwturn/), [Freeside Atlanta](freesideatlanta.org/) and other Special Interest Groups around Atlanta.
+Technologies:
+-------------
+iOS, Objective-C, Cocoa, Ruby, Git, Continuous Integration, Jenkins, Test Automation, Test Driven Development, SQL (MySQL, SQLite), NoSQL (MongoDB, CouchDB), Bash, Arduino, C/C++, CSS, SASS, HAML, Sinatra, JavaScript, JQuery
 
 Relevant Coursework:
 --------------------
-- Cornell: Analysis of Algorithms, Software Engineering, Information Retrieval, Machine Learning M.Eng. Project
-- GSU: Computer Organization and Programming, Computer Architecture, Operating Systems, Automata, Programming Language Concepts, Discrete Math, Math Models for Computer Science.
-- Gatech: Intro to CS, Object-Oriented Programming.
+Analysis of Algorithms, Information Retrieval, Natural Language Processing, The Structure of Information Networks, Embedded Microcontroller Design, Fundamentals of Digital Signal Processing
 
-Technologies:
-=============
-Continuous Integration, Test-Driven Development, Testing, xUnit, Git, Subversion, Machine Learning, Natural Language Processing, Information Retrieval, Arduino, C, C#, Cocoa, Hibernate, Java, JUnit, NHibernate, NUnit, Objective-C, Rhino Mocks, Ruby, Rails
+
+Education:
+----------
+**Cornell University, Ithaca, NY**  
+Masters of Engineering in Computer Science 08/2010 - 05/2011
+
+**Georgia State University, Atlanta, Georgia**  
+Computer Science Post-Baccalaureate 01/2008 - 05/2010
+
+**Georgia Institute of Technology, Atlanta, Georgia**  
+Bachelor of Science in Electrical Engineering 08/2000 - 07/2004
