@@ -3,8 +3,7 @@ PDF Version [here](https://github.com/jasmarc/Resume/blob/master/resume.pdf?raw=
 ----------
 
 Jason Marcell  
-870 E El Camino Real #301  
-Sunnyvale, CA 94087  
+New Orleans, LA  
 [jasonmarcell@gmail.com](mailto:jasonmarcell@gmail.com)  
 [http://jmarcell.com](http://jmarcell.com)  
 404.425.9471
@@ -13,8 +12,9 @@ Experience:
 -----------
 - **Apple, Inc., Cupertino, California**  
 *Software Engineer 10/2011 - Present*
-  - I work in Hardware Reliability. I work very closely with the development and manufacturing of new iThings from prototype to launch. We abuse Apple products in the name of science.
-  - I write software that performs automated stressing of hardware and then analyzes large volumes of aggregate data to search for reliability issues. Our findings inform and drive product development.
+  - I work in Safari and WebKit Operations, providing support for continuous integration, testing, deployment and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
+  - I previously worked in Hardware Reliability. I worked very closely with the development and manufacturing of new iThings from prototype to launch. I abused Apple products in the name of science.
+  - I wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
 
 - **Thermo Fisher Scientific, Inc., Billerica, Massachusetts**  
 *Software Engineer 07/2011 - 10/2011*
@@ -34,7 +34,7 @@ Experience:
 
 Technologies:
 -------------
-iOS, Objective-C, Cocoa, Ruby, Git, Continuous Integration, Jenkins, Test Automation, Test Driven Development, SQL (MySQL, SQLite), NoSQL (MongoDB, CouchDB), Bash, Arduino, C/C++, CSS, SASS, HAML, Sinatra, JavaScript, JQuery
+Python, Ruby, Git, Perl, Bash, Zsh, JavaScript, Continuous Integration, Jenkins, Test Automation, Test Driven Development, iOS, Swift, C/C++, Objective-C, SQL (MySQL, SQLite), NoSQL (MongoDB, CouchDB), Arduino
 
 Relevant Coursework:
 --------------------
