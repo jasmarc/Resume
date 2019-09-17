@@ -11,8 +11,8 @@ New Orleans, LA
 Experience:
 -----------
 - **Apple, Inc., Cupertino, California**  
-*Software Engineer 10/2011 - Present*
-  - I work in Safari and WebKit Operations, providing support for continuous integration, testing, deployment and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
+*Software Engineer 10/2011 - 05/2018*
+  - I worked in Safari and WebKit Operations, providing support for continuous integration, testing, deployment and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
   - I previously worked in Hardware Reliability. I worked very closely with the development and manufacturing of new iThings from prototype to launch. I abused Apple products in the name of science.
   - I wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
 
