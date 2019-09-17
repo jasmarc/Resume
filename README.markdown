@@ -6,7 +6,6 @@ Jason Marcell
 New Orleans, LA  
 [jasonmarcell@gmail.com](mailto:jasonmarcell@gmail.com)  
 [http://jmarcell.com](http://jmarcell.com)  
-404.425.9471
 
 Experience:
 -----------
