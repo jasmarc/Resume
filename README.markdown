@@ -34,12 +34,7 @@ Experience:
 
 Technologies:
 -------------
-Python, Ruby, Git, Perl, Bash, Zsh, JavaScript, Continuous Integration, Jenkins, Test Automation, Test Driven Development, iOS, Swift, C/C++, Objective-C, SQL (MySQL, SQLite), NoSQL (MongoDB, CouchDB), Arduino
-
-Relevant Coursework:
---------------------
-Analysis of Algorithms, Information Retrieval, Natural Language Processing, The Structure of Information Networks, Embedded Microcontroller Design, Fundamentals of Digital Signal Processing
-
+Python, Golang, Ruby, Java, JavaScript, AWS, Docker, Kafka, Kinesis, Git, Bash, Continuous Integration, Jenkins, Test Automation, Test Driven Development, SQL (MySQL, Postgres, DyanamoDB), NoSQL (MongoDB, CouchDB), Arduino
 
 Education:
 ----------
