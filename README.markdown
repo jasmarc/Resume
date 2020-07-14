@@ -11,7 +11,7 @@ Experience:
 -----------
 
 - **Lucid, LLC, New Orleans, Louisiana**  
-*Software Engineering Manager 05/2018 - Present*
+*Staff Software Engineer 05/2018 - Present*
   - Lucid provides a marketplace for human answers for businesses and individuals interested in conducting market research. The team that I lead provides programmatic API's for suppliers wanting to integrate with Lucid.
   - I lead a small team of backend API engineers on a variety of projects that involved creating new microservices in Python and Golang, Dockerized and hosted in AWS.
   - These new services helped to deprecate older, less cost-effective infrastructure and also provided better maintainability as well as a better customer experience.
