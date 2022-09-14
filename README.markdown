@@ -10,9 +10,14 @@ New Orleans, LA
 Experience:
 -----------
 
+- **Twilio, San Francisco, California (Fully Remote)**  
+*Staff Software Engineer 05/2018 - Present*
+  - As Tech Lead for the Lookup API Team, I lead a team of eight engineers, including myself, to drive Twilio's Lookup API towards being an industry leader in consumer trust for brands like Nike, Uber, and Discord.
+  - The Lookup APIs empower brands to engage in trusted interactions with their customers by providing information about phone numbers to detect fraud and ensure authentic relationships with consumers.
+
 - **Lucid, LLC, New Orleans, Louisiana**  
 *Staff Software Engineer 05/2018 - Present*
-  - Lucid provides a marketplace for human answers for businesses and individuals interested in conducting market research. The team that I lead provides programmatic API's for suppliers wanting to integrate with Lucid.
+  - Lucid provides a marketplace for human answers for businesses and individuals interested in conducting market research. The team that I lead provides programmatic APIs for suppliers wanting to integrate with Lucid.
   - I lead a small team of backend API engineers on a variety of projects that involved creating new microservices in Python and Golang, Dockerized and hosted in AWS.
   - These new services helped to deprecate older, less cost-effective infrastructure and also provided better maintainability as well as a better customer experience.
 
@@ -22,25 +27,15 @@ Experience:
   - I previously worked in Hardware Reliability. I worked very closely with the development and manufacturing of new iThings from prototype to launch. I abused Apple products in the name of science.
   - I wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
 
-- **Thermo Fisher Scientific, Inc., Billerica, Massachusetts**  
-*Software Engineer 07/2011 - 10/2011*
-  - Okay, so there's this gun that you can point at an unknown thing like a piece of jewelry, for example. The pawn shop says it's solid gold, but you point your trusty ``tricorder" (yeah, like in Star Trek) at the ring and instantly the screen gives a full breakdown of the metallic compounds. Oh look, it's some sort of tungsten alloy. *phew* We were almost duped. Glad we didn't waste our money on that.
-  - This is not science-fiction. This gun exists and I wrote embedded C++ in order to facilitate adding a GPS module to one of these guns.
-  - Read more here: [http://www.niton.com/](http://www.niton.com/)
-
-- **RSUI Group, Inc., Atlanta, Georgia**  
-*Software Engineer 10/2006 - 08/2010*
-  - I wrote software that helped move RSUI, a commercial insurance company, towards becoming paperless.
-  - I improved the productivity of RSUI's insurance professionals by facilitating the movement and storage of policy information.
-
-- **Agentek, Inc., Atlanta, Georgia**  
-*Software Engineer 10/2004 - 10/2006*
-  - I Wrote embedded software for ruggedized mobile devices for various Fortune 500 companies in the trucking and field service industries to improve field data collection and distribution in areas such as routing and package delivery and confirmation.
-  - I wrote a scripting language in C++ to facilitate the automatic provisioning and configuration of ruggedized mobile devices.
-
-Technologies:
+Skills:
 -------------
-Python, Golang, Ruby, Java, JavaScript, AWS, Docker, Kafka, Kinesis, Git, Bash, Continuous Integration, Jenkins, Test Automation, Test Driven Development, SQL (MySQL, Postgres, DyanamoDB), NoSQL (MongoDB, CouchDB), Arduino
+
+* Methodologies
+ Cross-functional Team Leadership, SCRUM Methodologies, Twelve-Factor Service Design, SOLID Principles, REST APIs, Scalable Architecture, Cloud Computing, Continuous Integration, Test Automation
+  
+* Tools
+ Python, Golang, Java, Amazon Web Services (AWS), Docker, Git, NoSQL
+
 
 Education:
 ----------
