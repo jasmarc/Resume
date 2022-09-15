@@ -30,11 +30,11 @@ Experience:
 Skills:
 -------------
 
-* Methodologies
- Cross-functional Team Leadership, SCRUM Methodologies, Twelve-Factor Service Design, SOLID Principles, REST APIs, Scalable Architecture, Cloud Computing, Continuous Integration, Test Automation
+### Methodologies
+  * Cross-functional Team Leadership, SCRUM Methodologies, Twelve-Factor Service Design, SOLID Principles, REST APIs, Scalable Architecture, Cloud Computing, Continuous Integration, Test Automation
   
-* Tools
- Python, Golang, Java, Amazon Web Services (AWS), Docker, Git, NoSQL
+### Tools
+  * Python, Golang, Java, Amazon Web Services (AWS), Docker, Git, NoSQL
 
 
 Education:
