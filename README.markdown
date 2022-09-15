@@ -11,12 +11,12 @@ Experience:
 -----------
 
 - **Twilio, San Francisco, California (Fully Remote)**  
-*Staff Software Engineer 05/2018 - Present*
+*Staff Software Engineer 09/2021 - Present*
   - As Tech Lead for the Lookup API Team, I lead a team of eight engineers, including myself, to drive Twilio's Lookup API towards being an industry leader in consumer trust for brands like Nike, Uber, and Discord.
   - The Lookup APIs empower brands to engage in trusted interactions with their customers by providing information about phone numbers to detect fraud and ensure authentic relationships with consumers.
 
 - **Lucid, LLC, New Orleans, Louisiana**  
-*Staff Software Engineer 05/2018 - Present*
+*Staff Software Engineer 05/2018 - 09/2021*
   - Lucid provides a marketplace for human answers for businesses and individuals interested in conducting market research. The team that I lead provides programmatic APIs for suppliers wanting to integrate with Lucid.
   - I lead a small team of backend API engineers on a variety of projects that involved creating new microservices in Python and Golang, Dockerized and hosted in AWS.
   - These new services helped to deprecate older, less cost-effective infrastructure and also provided better maintainability as well as a better customer experience.
