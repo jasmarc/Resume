@@ -1,0 +1,86 @@
+name:
+    first: Jason
+    last: Marcell
+location: New Orleans, LA
+email: jasonmarcell@gmail.com
+website: http://jmarcell.com
+
+experience:
+ - title: Lead Software Engineer
+   company: Capital One
+   location: McClean, VA (Fully Remote)
+   role: Lead Software Engineer on the Finance Platform
+   date: 11/2022 - Present
+   points:
+     - Led a team within Finance Platform, empowering internal users to onboard modular ETL components, vital for processing large-scale datasets used in financial forecasting tasks.
+     - Fully serverless tech stack on AWS with DynamoDB and Lambda for backend, React for frontend.
+     - Successfully implemented process improvements that significantly reduced code review turnaround times, resulting in quicker feedback and enhanced Pull Request quality.
+     - Developed open-source Jira CLI and inner-source Feature Toggle CLI used company-wide.
+
+ - title: Staff Software Engineer
+   company: Twilio
+   location: San Francisco, CA (Fully Remote)
+   role: Tech Lead for the Lookup API Team
+   date: 09/2021 - 11/2022
+   points:
+     - Lead a team of eight engineers to make Twilio's Lookup API an industry leader in consumer trust.
+     - Empowered brands to engage in trusted interactions with customers using phone number information.
+
+ - title: Staff Software Engineer
+   company: Lucid, LLC
+   location: New Orleans, LA (Hybrid Remote)
+   date: 05/2018 - 09/2021
+   role: Backend API Tech Lead and Engineering Manager
+   points:
+     - Led a team in creating new microservices in Python and Golang, Dockerizing and hosting them on AWS, effectively phasing out older infrastructure and enhancing the customer experience.
+     - Played a pivotal role as a team leader in achieving the successful startup exit, contributing to the first billion-dollar unicorn startup acquisition in the state of Louisiana.
+
+ - title: Software Engineer
+   company: Apple, Inc.
+   location: Cupertino, CA
+   date: 10/2011 - 05/2018
+   role: Safari and WebKit Operations and Hardware Reliability Engineer
+   points:
+     - I worked in Safari and WebKit Operations, providing support for continuous integration, testing, deployment and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
+     - Prior that, I worked in Hardware Reliability, working very closely with the development and manufacturing of new iThings from prototype to launch. I abused Apple products in the name of science.
+     - I wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
+
+education:
+  - institution: Cornell University
+    degree: Masters of Engineering Computer Science
+    date: 08/2010 - 05/2011
+
+  - institution: Georgia State University
+    degree: Computer Science Post-Baccalaureate
+    date: 01/2008 - 05/2010
+
+  - institution: Georgia Institute of Technology
+    degree: Bachelor of Science Electrical Engineering
+    date: 08/2000 - 07/2004
+
+skills:
+  methodologies:
+    - Cross-functional Team Leadership
+    - SCRUM Methodologies
+    - Twelve-Factor Service Design
+    - SOLID Principles
+    - Scalable Architecture
+    - REST APIs
+    - Cloud Computing
+    - Continuous Integration
+    - Test Automation
+  tools:
+    - Python
+    - Golang
+    - Java
+    - React
+    - Amazon Web Services (AWS)
+    - Serverless Computing (e.g., AWS Lambda)
+    - Microservices
+    - Docker
+    - Git
+    - NoSQL (e.g., DynamoDB)
+    - API Gateway
+    - API Design and Security (API Keys, JWT)
+    - DevOps Practices (CI/CD, IAC, Jenkins, AWS CloudFormation Templates)
+
