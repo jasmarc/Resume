@@ -2,7 +2,7 @@
 
 ----------
 
-Jason Marcell  
+{'first': 'Jason', 'last': 'Marcell'}  
 New Orleans, LA  
 [jasonmarcell@gmail.com](mailto:jasonmarcell@gmail.com)  
 [http://jmarcell.com](http://jmarcell.com)  
@@ -10,40 +10,65 @@ New Orleans, LA
 Experience:
 -----------
 
-- **Twilio, San Francisco, California (Fully Remote)**  
-*Staff Software Engineer 09/2021 - Present*
-  - As Tech Lead for the Lookup API Team, I lead a team of eight engineers, including myself, to drive Twilio's Lookup API towards being an industry leader in consumer trust for brands like Nike, Uber, and Discord.
-  - The Lookup APIs empower brands to engage in trusted interactions with their customers by providing information about phone numbers to detect fraud and ensure authentic relationships with consumers.
 
-- **Lucid, LLC, New Orleans, Louisiana**  
-*Staff Software Engineer 05/2018 - 09/2021*
-  - Lucid provides a marketplace for human answers for businesses and individuals interested in conducting market research. The team that I lead provides programmatic APIs for suppliers wanting to integrate with Lucid.
-  - I lead a small team of backend API engineers on a variety of projects that involved creating new microservices in Python and Golang, Dockerized and hosted in AWS.
-  - These new services helped to deprecate older, less cost-effective infrastructure and also provided better maintainability as well as a better customer experience.
+- **Capital One, McClean, VA (Fully Remote)**  
+*Lead Software Engineer - 11/2022 - Present*  
+  
+    - Led a team within Finance Platform, empowering internal users to onboard modular ETL components, vital for processing large-scale datasets used in financial forecasting tasks.
+  
+    - Fully serverless tech stack on AWS with DynamoDB and Lambda for backend, React for frontend.
+  
+    - Successfully implemented process improvements that significantly reduced code review turnaround times, resulting in quicker feedback and enhanced Pull Request quality.
+  
+    - Developed open-source Jira CLI and inner-source Feature Toggle CLI used company-wide.
+  
 
-- **Apple, Inc., Cupertino, California**  
-*Software Engineer 10/2011 - 05/2018*
-  - I worked in Safari and WebKit Operations, providing support for continuous integration, testing, deployment and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
-  - I previously worked in Hardware Reliability. I worked very closely with the development and manufacturing of new iThings from prototype to launch. I abused Apple products in the name of science.
-  - I wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
+- **Twilio, San Francisco, CA (Fully Remote)**  
+*Staff Software Engineer - 09/2021 - 11/2022*  
+  
+    - Lead a team of eight engineers to make Twilio's Lookup API an industry leader in consumer trust.
+  
+    - Empowered brands to engage in trusted interactions with customers using phone number information.
+  
+
+- **Lucid, LLC, New Orleans, LA (Hybrid Remote)**  
+*Staff Software Engineer - 05/2018 - 09/2021*  
+  
+    - Led a team in creating new microservices in Python and Golang, Dockerizing and hosting them on AWS, effectively phasing out older infrastructure and enhancing the customer experience.
+  
+    - Played a pivotal role as a team leader in achieving the successful startup exit, contributing to the first billion-dollar unicorn startup acquisition in the state of Louisiana.
+  
+
+- **Apple, Inc., Cupertino, CA**  
+*Software Engineer - 10/2011 - 05/2018*  
+  
+    - I worked in Safari and WebKit Operations, providing support for continuous integration, testing, deployment and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
+  
+    - Prior that, I worked in Hardware Reliability, working very closely with the development and manufacturing of new iThings from prototype to launch. I abused Apple products in the name of science.
+  
+    - I wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
+  
+
+
 
 Skills:
--------------
+-----------
 
-### Methodologies
-  * Cross-functional Team Leadership, SCRUM Methodologies, Twelve-Factor Service Design, SOLID Principles, REST APIs, Scalable Architecture, Cloud Computing, Continuous Integration, Test Automation
+### Methodologies:
+  * Cross-functional Team Leadership, SCRUM Methodologies, Twelve-Factor Service Design, SOLID Principles, Scalable Architecture, REST APIs, Cloud Computing, Continuous Integration, Test Automation
   
-### Tools
-  * Python, Golang, Java, Amazon Web Services (AWS), Docker, Git, NoSQL
-
+### Tools:
+  * Python, Golang, Java, React, Amazon Web Services (AWS), Serverless Computing (e.g., AWS Lambda), Microservices, Docker, Git, NoSQL (e.g., DynamoDB), API Gateway, API Design and Security (API Keys, JWT), DevOps Practices (CI/CD, IAC, Jenkins, AWS CloudFormation Templates)
 
 Education:
 ----------
-**Cornell University, Ithaca, NY**  
-Masters of Engineering in Computer Science 08/2010 - 05/2011
 
-**Georgia State University, Atlanta, Georgia**  
+
+**Cornell University**  
+Masters of Engineering Computer Science 08/2010 - 05/2011
+
+**Georgia State University**  
 Computer Science Post-Baccalaureate 01/2008 - 05/2010
 
-**Georgia Institute of Technology, Atlanta, Georgia**  
-Bachelor of Science in Electrical Engineering 08/2000 - 07/2004
+**Georgia Institute of Technology**  
+Bachelor of Science Electrical Engineering 08/2000 - 07/2004
