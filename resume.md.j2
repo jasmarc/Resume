@@ -1,0 +1,43 @@
+# 🚨 PDF Version [here](https://github.com/jasmarc/Resume/blob/master/Marcell,%20Jason%20-%20Resume.pdf?raw=true) 🚨
+
+----------
+
+{{ common.name.first }} {{ common.name.last }}  
+[{{ common.email }}](mailto:{{ common.email }})  
+[{{ common.website }}]({{ common.website }})  
+
+Experience:
+-----------
+
+{% for job in experience %}
+- **{{ job.company }}, {{ job.location }}**  
+*{{ job.title }} - {{ job.date }}*  
+  {% for point in job.points %}
+    - {{ point }}
+  {% endfor %}
+{% endfor %}
+
+
+Skills:
+-----------
+
+### Methodologies:
+  * {{ skills.methodologies | join(', ') }}
+  
+### Tools:
+  * {{ skills.tools | join(', ') }}
+
+Certifications:
+--------------
+
+{% for cert in common.certifications %}
+  * {{ cert }}
+{% endfor %}
+
+Education:
+----------
+
+{% for edu in common.education %}
+**{{ edu.institution }}**  
+{{ edu.degree }} {{ edu.date }}
+{% endfor %}

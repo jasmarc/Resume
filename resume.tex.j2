@@ -1,0 +1,68 @@
+\title{{ '{' }}{{ common.name.last }}, {{ common.name.first }} - Resume{{ '}' }}
+\author{{ '{' }}{{ common.name.first }} {{ common.name.last }}{{ '}' }}
+\documentclass[10pt]{article}
+\usepackage{hyperref}
+\usepackage[top=.5in, bottom=.5in, left=.5in, right=.6in]{geometry}
+\pagenumbering{gobble}
+\setlength{\tabcolsep}{0in}
+\begin{document}
+  \begin{center}
+    \textbf{\LARGE {{ common.name.first }} {{ common.name.last }}} \\
+  {{ common.website }} \\
+  {{ common.email }} \\
+  \end{center}
+
+  \vspace{0.5em}
+  {\large \textbf{Experience}}
+
+  \begin{itemize}
+
+    {% for job in experience %}
+    \item
+    \begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+      \textbf{{ '{' }}{{ job.title }}{{ '}' }}, {{ job.company }}, {{ job.location }} & {{ job.date }} \\
+    \end{tabular*}
+    \begin{itemize}
+      {% for point in job.points %}
+      \item {{ point }}
+      {% endfor %}
+    \end{itemize}
+    {% endfor %}
+
+  \end{itemize}
+
+  \vspace{0.5em}
+  {\large \textbf{Skills}}
+
+  \begin{flushleft}
+    \addtolength{\leftskip}{.3in}
+
+    \textbf{Methodologies:}\\
+    {{ skills.methodologies | join(', ') }}
+
+    \vspace{0.5em}
+
+    \textbf{Tools:}\\
+    {{ skills.tools | join(', ') }}
+  \end{flushleft}
+
+  \vspace{0.5em}
+  {\large \textbf{Certifications}}
+  \begin{itemize}
+      {% for cert in common.certifications %}
+      \item {{ cert }}
+      {% endfor %}
+  \end{itemize}
+
+  \vspace{0.5em}
+  {\large \textbf{Education}}
+  \begin{itemize}
+    {% for edu in common.education %}
+    \item
+      \begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+        \textbf{{ '{' }}{{ edu.institution }}{{ '}' }}, {{ edu.degree }} & {{ edu.date }} \\
+      \end{tabular*}
+    {% endfor %}
+  \end{itemize}
+
+\end{document}
