@@ -41,11 +41,11 @@ Experience:
 - **Apple, Inc., Cupertino, CA**  
 *Software Engineer - 10/2011 - 05/2018*  
   
-    - I worked in Safari and WebKit Operations, providing support for continuous integration, testing, deployment and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
+    - Worked in Safari and WebKit Operations, providing support for continuous integration, testing, deployment, and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
   
-    - Prior that, I worked in Hardware Reliability, working very closely with the development and manufacturing of new iThings from prototype to launch. I abused Apple products in the name of science.
+    - Previously, worked in Hardware Reliability, working very closely with the development and manufacturing of new iThings from prototype to launch. Abused Apple products in the name of science.
   
-    - I wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
+    - Wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
   
 
 
@@ -65,7 +65,7 @@ Certifications:
 
   * AWS Certified Solutions Architect - Associate QG6GCG4K41B110GJ
 
-  * Eagle Scount, Boy Scouts of America
+  * Eagle Scout, Boy Scouts of America
 
 
 Education:
