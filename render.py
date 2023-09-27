@@ -25,7 +25,7 @@ latex_output = latex_template.render(
 )
 
 # Save the rendered templates to files
-with open('README.markdown', 'w') as md_file:
+with open('README.md', 'w') as md_file:
     md_file.write(markdown_output)
 
 with open('resume.tex', 'w') as tex_file:
