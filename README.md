@@ -25,7 +25,7 @@ Experience:
 - **Twilio, San Francisco, CA (Fully Remote)**  
 *Staff Software Engineer - 09/2021 - 11/2022*  
   
-    - Lead a team of eight engineers to make Twilio's Lookup API an industry leader in consumer trust.
+    - Led a team of eight engineers to make Twilio's Lookup API an industry leader in consumer trust.
   
     - Empowered brands to engage in trusted interactions with customers using phone number information.
   
