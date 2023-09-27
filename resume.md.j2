@@ -2,8 +2,7 @@
 
 ----------
 
-{{ common.name }}  
-{{ common.location }}  
+{{ common.name.first }} {{ common.name.last }}  
 [{{ common.email }}](mailto:{{ common.email }})  
 [{{ common.website }}]({{ common.website }})  
 
@@ -28,10 +27,17 @@ Skills:
 ### Tools:
   * {{ skills.tools | join(', ') }}
 
+Certifications:
+--------------
+
+{% for cert in common.certifications %}
+  * {{ cert }}
+{% endfor %}
+
 Education:
 ----------
 
-{% for edu in education %}
+{% for edu in common.education %}
 **{{ edu.institution }}**  
 {{ edu.degree }} {{ edu.date }}
 {% endfor %}

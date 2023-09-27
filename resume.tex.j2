@@ -1,6 +1,6 @@
 \title{{ '{' }}{{ common.name.last }}, {{ common.name.first }} - Resume{{ '}' }}
 \author{{ '{' }}{{ common.name.first }} {{ common.name.last }}{{ '}' }}
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 \usepackage{hyperref}
 \usepackage[top=.5in, bottom=.5in, left=.5in, right=.6in]{geometry}
 \pagenumbering{gobble}
@@ -12,7 +12,7 @@
   {{ common.email }} \\
   \end{center}
 
-  \vspace{1em}
+  \vspace{0.5em}
   {\large \textbf{Experience}}
 
   \begin{itemize}
@@ -31,7 +31,7 @@
 
   \end{itemize}
 
-  \vspace{1em}
+  \vspace{0.5em}
   {\large \textbf{Skills}}
 
   \begin{flushleft}
@@ -40,21 +40,29 @@
     \textbf{Methodologies:}\\
     {{ skills.methodologies | join(', ') }}
 
-    \vspace{1em}
+    \vspace{0.5em}
 
     \textbf{Tools:}\\
     {{ skills.tools | join(', ') }}
   \end{flushleft}
 
-  \vspace{1em}
-  {\large \textbf{Education}}
-
+  \vspace{0.5em}
+  {\large \textbf{Certifications}}
   \begin{itemize}
-    {% for edu in education %}
+      {% for cert in common.certifications %}
+      \item {{ cert }}
+      {% endfor %}
+  \end{itemize}
+
+  \vspace{0.5em}
+  {\large \textbf{Education}}
+  \begin{itemize}
+    {% for edu in common.education %}
     \item
       \begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
         \textbf{{ '{' }}{{ edu.institution }}{{ '}' }}, {{ edu.degree }} & {{ edu.date }} \\
       \end{tabular*}
     {% endfor %}
   \end{itemize}
+
 \end{document}

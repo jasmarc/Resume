@@ -2,8 +2,7 @@
 
 ----------
 
-{'first': 'Jason', 'last': 'Marcell'}  
-New Orleans, LA  
+Jason Marcell  
 [jasonmarcell@gmail.com](mailto:jasonmarcell@gmail.com)  
 [http://jmarcell.com](http://jmarcell.com)  
 
@@ -60,6 +59,15 @@ Skills:
 ### Tools:
   * Python, Golang, Java, React, Amazon Web Services (AWS), Serverless Computing (e.g., AWS Lambda), Microservices, Docker, Git, NoSQL (e.g., DynamoDB), API Gateway, API Design and Security (API Keys, JWT), DevOps Practices (CI/CD, IAC, Jenkins, AWS CloudFormation Templates)
 
+Certifications:
+--------------
+
+
+  * AWS Certified Solutions Architect - Associate QG6GCG4K41B110GJ
+
+  * Eagle Scount, Boy Scouts of America
+
+
 Education:
 ----------
 
@@ -69,6 +77,9 @@ Masters of Engineering Computer Science 08/2010 - 05/2011
 
 **Georgia State University**  
 Computer Science Post-Baccalaureate 01/2008 - 05/2010
+
+**United States Marine Corps**  
+Officer Candidate School 05/2003 - 06/2003
 
 **Georgia Institute of Technology**  
 Bachelor of Science Electrical Engineering 08/2000 - 07/2004

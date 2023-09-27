@@ -54,9 +54,17 @@ education:
     degree: Computer Science Post-Baccalaureate
     date: 01/2008 - 05/2010
 
+  - institution: United States Marine Corps
+    degree: Officer Candidate School
+    date: 05/2003 - 06/2003
+
   - institution: Georgia Institute of Technology
     degree: Bachelor of Science Electrical Engineering
     date: 08/2000 - 07/2004
+
+certifications:
+  - AWS Certified Solutions Architect - Associate QG6GCG4K41B110GJ
+  - Eagle Scout, Boy Scouts of America
 
 skills:
   methodologies:
