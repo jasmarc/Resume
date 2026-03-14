@@ -1,39 +1,46 @@
 name:
     first: Jason
     last: Marcell
-location: New Orleans, LA
+location: Austin, TX
 email: jasonmarcell@gmail.com
 website: http://jmarcell.com
 
 experience:
+ - title: Software Engineer
+   company: Amazon
+   location: Austin, TX
+   role: Software Engineer, WWGST SPICE
+   date: 01/2024 - Present
+   points:
+     - Built an award-winning hackathon POC for enterprise procurement classification that was immediately funded for production; served as technical lead for a team of engineers and data scientists to evolve from an LLM prototype into a scalable classical ML pipeline on AWS SageMaker, now deployed to production processing millions of records with projected annual savings of roughly half a million dollars.
+     - Designed experimental AI-assisted development workflows using coordinated LLM subagents, tmux-orchestrated task graphs, git-worktrees, and ephemeral cloud environments to parallelize engineering workflows; built internal LLM-powered developer tooling integrating codebase context and operational runbooks.
+     - Early leader of an AI initiative across a 50+ engineer organization; created a 14-topic agentic AI workshop series, built internal AI agents and developer tooling, and drove adoption of AI-native development workflows across the department.
+     - Established a department-wide pattern for auto-generated SDKs from OpenAPI specifications, eliminating thousands of lines of manual integration code and standardizing API integrations across multiple systems.
+
  - title: Lead Software Engineer
    company: Capital One
-   location: McClean, VA (Fully Remote)
+   location: McLean, VA (Remote)
    role: Lead Software Engineer on the Finance Platform
-   date: 11/2022 - Present
+   date: 11/2022 - 01/2024
    points:
-     - Led a team within Finance Platform, empowering internal users to onboard modular ETL components, vital for processing large-scale datasets used in financial forecasting tasks.
-     - Fully serverless tech stack on AWS with DynamoDB and Lambda for backend, React for frontend.
-     - Successfully implemented process improvements that significantly reduced code review turnaround times, resulting in quicker feedback and enhanced Pull Request quality.
-     - Developed open-source Jira CLI and inner-source Feature Toggle CLI used company-wide.
+     - Led a team building a modular ETL platform for large-scale financial forecasting on a fully serverless AWS stack (DynamoDB, Lambda, React).
+     - Developed open-source Jira CLI and inner-source Feature Toggle CLI adopted company-wide.
 
  - title: Staff Software Engineer
    company: Twilio
-   location: San Francisco, CA (Fully Remote)
+   location: San Francisco, CA (Remote)
    role: Tech Lead for the Lookup API Team
    date: 09/2021 - 11/2022
    points:
-     - Led a team of eight engineers to make Twilio's Lookup API an industry leader in consumer trust.
-     - Empowered brands to engage in trusted interactions with customers using phone number information.
+     - Led a team of eight engineers building Twilio's Lookup API, an industry-leading consumer trust and phone identity platform.
 
  - title: Staff Software Engineer
    company: Lucid, LLC
-   location: New Orleans, LA (Hybrid Remote)
+   location: New Orleans, LA
    date: 05/2018 - 09/2021
    role: Backend API Tech Lead and Engineering Manager
    points:
-     - Led a team in creating new microservices in Python and Golang, Dockerizing and hosting them on AWS, effectively phasing out older infrastructure and enhancing the customer experience.
-     - Played a pivotal role as a team leader in achieving the successful startup exit, contributing to the first billion-dollar unicorn startup acquisition in the state of Louisiana.
+     - Led engineering of new microservices in Python and Golang on AWS, contributing to the first billion-dollar startup acquisition in Louisiana.
 
  - title: Software Engineer
    company: Apple, Inc.
@@ -41,18 +48,13 @@ experience:
    date: 10/2011 - 05/2018
    role: Safari and WebKit Operations and Hardware Reliability Engineer
    points:
-     - Worked in Safari and WebKit Operations, providing support for continuous integration, testing, deployment, and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
-     - Previously, worked in Hardware Reliability, working very closely with the development and manufacturing of new iThings from prototype to launch. Abused Apple products in the name of science.
-     - Wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
+     - Safari and WebKit Operations — built CI/CD infrastructure, testing, and deployment tooling for Apple's browser engine across iPhone and Mac.
+     - Hardware Reliability Engineering — wrote software for automated hardware stress testing and large-scale data analysis that directly informed product development from prototype through launch.
 
 education:
   - institution: Cornell University
     degree: Masters of Engineering Computer Science
     date: 08/2010 - 05/2011
-
-  - institution: Georgia State University
-    degree: Computer Science Post-Baccalaureate
-    date: 01/2008 - 05/2010
 
   - institution: United States Marine Corps
     degree: Officer Candidate School
@@ -63,32 +65,34 @@ education:
     date: 08/2000 - 07/2004
 
 certifications:
-  - AWS Certified Solutions Architect - Associate QG6GCG4K41B110GJ
+  - AWS Certified Solutions Architect - Associate
   - Eagle Scout, Boy Scouts of America
 
 skills:
-  methodologies:
-    - Cross-functional Team Leadership
-    - SCRUM Methodologies
-    - Twelve-Factor Service Design
-    - SOLID Principles
-    - Scalable Architecture
-    - REST APIs
-    - Cloud Computing
-    - Continuous Integration
-    - Test Automation
-  tools:
+  ai_ml:
+    - Generative AI
+    - LLM Applications
+    - Agentic Workflows
+    - Retrieval-Augmented Generation (RAG)
+    - Classical Machine Learning
+    - AWS Bedrock
+    - AWS SageMaker
+    - scikit-learn
+  languages:
     - Python
-    - Golang
     - Java
-    - React
-    - Amazon Web Services (AWS)
-    - Serverless Computing (e.g., AWS Lambda)
-    - Microservices
+    - Rust
+  infrastructure:
+    - AWS
+    - Serverless Architecture (Lambda, DynamoDB, API Gateway)
     - Docker
-    - Git
-    - NoSQL (e.g., DynamoDB)
-    - API Gateway
-    - API Design and Security (API Keys, JWT)
-    - DevOps Practices (CI/CD, IAC, Jenkins, AWS CloudFormation Templates)
-
+    - CI/CD
+    - Infrastructure as Code (CloudFormation, CDK)
+  systems:
+    - AI-Native Development
+    - Distributed Systems
+    - REST APIs
+    - OpenAPI
+    - SDK Generation
+    - Microservices
+    - Test Automation

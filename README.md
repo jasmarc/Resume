@@ -10,42 +10,44 @@ Experience:
 -----------
 
 
-- **Capital One, McClean, VA (Fully Remote)**  
-*Lead Software Engineer - 11/2022 - Present*  
+- **Amazon, Austin, TX**  
+*Software Engineer - 01/2024 - Present*  
   
-    - Led a team within Finance Platform, empowering internal users to onboard modular ETL components, vital for processing large-scale datasets used in financial forecasting tasks.
+    - Built an award-winning hackathon POC for enterprise procurement classification that was immediately funded for production; served as technical lead for a team of engineers and data scientists to evolve from an LLM prototype into a scalable classical ML pipeline on AWS SageMaker, now deployed to production processing millions of records with projected annual savings of roughly half a million dollars.
   
-    - Fully serverless tech stack on AWS with DynamoDB and Lambda for backend, React for frontend.
+    - Designed experimental AI-assisted development workflows using coordinated LLM subagents, tmux-orchestrated task graphs, git-worktrees, and ephemeral cloud environments to parallelize engineering workflows; built internal LLM-powered developer tooling integrating codebase context and operational runbooks.
   
-    - Successfully implemented process improvements that significantly reduced code review turnaround times, resulting in quicker feedback and enhanced Pull Request quality.
+    - Early leader of an AI initiative across a 50+ engineer organization; created a 14-topic agentic AI workshop series, built internal AI agents and developer tooling, and drove adoption of AI-native development workflows across the department.
   
-    - Developed open-source Jira CLI and inner-source Feature Toggle CLI used company-wide.
+    - Established a department-wide pattern for auto-generated SDKs from OpenAPI specifications, eliminating thousands of lines of manual integration code and standardizing API integrations across multiple systems.
   
 
-- **Twilio, San Francisco, CA (Fully Remote)**  
+- **Capital One, McLean, VA (Remote)**  
+*Lead Software Engineer - 11/2022 - 01/2024*  
+  
+    - Led a team building a modular ETL platform for large-scale financial forecasting on a fully serverless AWS stack (DynamoDB, Lambda, React).
+  
+    - Developed open-source Jira CLI and inner-source Feature Toggle CLI adopted company-wide.
+  
+
+- **Twilio, San Francisco, CA (Remote)**  
 *Staff Software Engineer - 09/2021 - 11/2022*  
   
-    - Led a team of eight engineers to make Twilio's Lookup API an industry leader in consumer trust.
-  
-    - Empowered brands to engage in trusted interactions with customers using phone number information.
+    - Led a team of eight engineers building Twilio's Lookup API, an industry-leading consumer trust and phone identity platform.
   
 
-- **Lucid, LLC, New Orleans, LA (Hybrid Remote)**  
+- **Lucid, LLC, New Orleans, LA**  
 *Staff Software Engineer - 05/2018 - 09/2021*  
   
-    - Led a team in creating new microservices in Python and Golang, Dockerizing and hosting them on AWS, effectively phasing out older infrastructure and enhancing the customer experience.
-  
-    - Played a pivotal role as a team leader in achieving the successful startup exit, contributing to the first billion-dollar unicorn startup acquisition in the state of Louisiana.
+    - Led engineering of new microservices in Python and Golang on AWS, contributing to the first billion-dollar startup acquisition in Louisiana.
   
 
 - **Apple, Inc., Cupertino, CA**  
 *Software Engineer - 10/2011 - 05/2018*  
   
-    - Worked in Safari and WebKit Operations, providing support for continuous integration, testing, deployment, and other infrastructure and tooling needed to keep "The Internet" humming along quietly on your iPhone and Mac.
+    - Safari and WebKit Operations — built CI/CD infrastructure, testing, and deployment tooling for Apple's browser engine across iPhone and Mac.
   
-    - Previously, worked in Hardware Reliability, working very closely with the development and manufacturing of new iThings from prototype to launch. Abused Apple products in the name of science.
-  
-    - Wrote software that performed automated stressing of hardware and then analyzed large volumes of aggregate data to search for reliability issues. Our findings informed and drove product development.
+    - Hardware Reliability Engineering — wrote software for automated hardware stress testing and large-scale data analysis that directly informed product development from prototype through launch.
   
 
 
@@ -53,17 +55,23 @@ Experience:
 Skills:
 -----------
 
-### Methodologies:
-  * Cross-functional Team Leadership, SCRUM Methodologies, Twelve-Factor Service Design, SOLID Principles, Scalable Architecture, REST APIs, Cloud Computing, Continuous Integration, Test Automation
-  
-### Tools:
-  * Python, Golang, Java, React, Amazon Web Services (AWS), Serverless Computing (e.g., AWS Lambda), Microservices, Docker, Git, NoSQL (e.g., DynamoDB), API Gateway, API Design and Security (API Keys, JWT), DevOps Practices (CI/CD, IAC, Jenkins, AWS CloudFormation Templates)
+### AI / ML:
+  * Generative AI, LLM Applications, Agentic Workflows, Retrieval-Augmented Generation (RAG), Classical Machine Learning, AWS Bedrock, AWS SageMaker, scikit-learn
+
+### Languages:
+  * Python, Java, Rust
+
+### Infrastructure:
+  * AWS, Serverless Architecture (Lambda, DynamoDB, API Gateway), Docker, CI/CD, Infrastructure as Code (CloudFormation, CDK)
+
+### Systems Engineering:
+  * AI-Native Development, Distributed Systems, REST APIs, OpenAPI, SDK Generation, Microservices, Test Automation
 
 Certifications:
 --------------
 
 
-  * AWS Certified Solutions Architect - Associate QG6GCG4K41B110GJ
+  * AWS Certified Solutions Architect - Associate
 
   * Eagle Scout, Boy Scouts of America
 
@@ -74,9 +82,6 @@ Education:
 
 **Cornell University**  
 Masters of Engineering Computer Science 08/2010 - 05/2011
-
-**Georgia State University**  
-Computer Science Post-Baccalaureate 01/2008 - 05/2010
 
 **United States Marine Corps**  
 Officer Candidate School 05/2003 - 06/2003
