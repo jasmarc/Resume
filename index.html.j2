@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ common.name.first }} {{ common.name.last }} — Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>tailwind.config = { darkMode: 'class' };</script>
+</head>
+<body class="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
+  <div class="mx-auto max-w-5xl px-5 py-8 sm:px-8 sm:py-10 lg:px-10">
+
+    <!-- Header -->
+    <header class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
+      <div class="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+        <div class="max-w-3xl">
+          <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl">{{ common.name.first }} {{ common.name.last }}</h1>
+          <div class="mt-3 inline-flex items-center gap-2 rounded-full border border-cyan-300 bg-cyan-50 px-3 py-1 text-xs font-medium tracking-wide text-cyan-700 dark:border-cyan-400/30 dark:bg-cyan-500/10 dark:text-cyan-300 dark:shadow-sm dark:shadow-cyan-500/10">
+            <i data-lucide="sparkles" class="h-3.5 w-3.5"></i>
+            AI-native systems engineer
+          </div>
+          <p class="mt-4 text-lg leading-8 text-zinc-600 dark:text-zinc-300">
+            Senior backend and platform engineer focused on LLM applications, ML systems,
+            distributed systems, and developer tooling.
+          </p>
+          <div class="mt-5 flex flex-wrap items-center gap-3 text-sm text-zinc-500 dark:text-zinc-400">
+            <span>{{ common.location }}</span>
+            <span>•</span>
+            <a href="mailto:{{ common.email }}" class="group inline-flex items-center gap-1.5 transition duration-150 hover:-translate-y-0.5 hover:text-current">
+              <i data-lucide="mail" class="h-4 w-4 transition group-hover:rotate-3 group-hover:text-cyan-500"></i>
+              <span>{{ common.email }}</span>
+            </a>
+            <span>•</span>
+            <a href="{{ common.linkedin }}" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-1.5 transition duration-150 hover:-translate-y-0.5 hover:text-current">
+              <i data-lucide="linkedin" class="h-4 w-4 transition group-hover:-rotate-3 group-hover:text-cyan-500"></i>
+              <span>LinkedIn</span>
+            </a>
+            <span>•</span>
+            <a href="{{ common.github }}" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-1.5 transition duration-150 hover:-translate-y-0.5 hover:text-current">
+              <i data-lucide="github" class="h-4 w-4 transition group-hover:-rotate-3 group-hover:text-cyan-500"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center lg:flex-col lg:items-end">
+          <div class="flex gap-2 self-end">
+            <button id="theme-toggle" class="rounded-2xl border border-zinc-200 bg-white p-3 text-zinc-700 transition hover:-translate-y-0.5 hover:bg-zinc-50 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200 dark:hover:bg-white/10" aria-label="Cycle theme">
+              <span id="icon-system-wrap"><i data-lucide="monitor" class="h-4 w-4"></i></span>
+              <span id="icon-dark-wrap" class="hidden"><i data-lucide="moon" class="h-4 w-4"></i></span>
+              <span id="icon-light-wrap" class="hidden"><i data-lucide="sun" class="h-4 w-4"></i></span>
+            </button>
+          </div>
+          <div class="flex flex-col gap-3 sm:flex-row lg:flex-col lg:min-w-[220px]">
+            <a href="Marcell,%20Jason%20-%20Resume.pdf" class="group inline-flex items-center justify-center gap-2 rounded-2xl bg-zinc-900 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-1 dark:bg-white dark:text-zinc-950 dark:shadow-lg">
+              <i data-lucide="download" class="h-4 w-4 transition group-hover:rotate-6"></i>
+              Download PDF
+            </a>
+            <a href="README.md" class="group inline-flex items-center justify-center gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-3 text-sm font-semibold text-zinc-900 transition hover:-translate-y-1 hover:bg-zinc-50 dark:border-white/15 dark:bg-white/5 dark:text-white dark:hover:bg-white/10">
+              <i data-lucide="file-text" class="h-4 w-4 transition group-hover:-rotate-3"></i>
+              View Markdown Source
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="mt-8 grid gap-8 lg:grid-cols-[1.5fr_0.8fr]">
+
+      <!-- Experience -->
+      <section class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
+        <h2 class="mb-6 text-xl font-semibold">Experience</h2>
+        <div class="space-y-8">
+          {% for job in experience %}
+          <article class="{{ 'border-b border-zinc-200 pb-8 dark:border-white/10' if not loop.last else 'pb-0' }}">
+            <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+              <div>
+                <h3 class="text-lg font-semibold">{{ job.company }}</h3>
+                <p class="text-sm text-zinc-600 dark:text-zinc-300">{{ job.title }} · {{ job.location }}</p>
+              </div>
+              <div class="text-sm text-zinc-500 dark:text-zinc-400">{{ job.date }}</div>
+            </div>
+            <ul class="mt-4 space-y-3 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
+              {% for point in job.points %}
+              <li class="flex gap-3">
+                <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
+                <span>{{ point }}</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="space-y-8">
+
+        <section class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
+          <h2 class="text-xl font-semibold">What I build</h2>
+          <div class="mt-4 space-y-4">
+            <div>
+              <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">AI / ML</h3>
+              <div class="mt-2 flex flex-wrap gap-2">
+                {% for skill in skills.ai_ml %}
+                <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">{{ skill }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <div>
+              <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Languages</h3>
+              <div class="mt-2 flex flex-wrap gap-2">
+                {% for skill in skills.languages %}
+                <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">{{ skill }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <div>
+              <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Infrastructure</h3>
+              <div class="mt-2 flex flex-wrap gap-2">
+                {% for skill in skills.infrastructure %}
+                <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">{{ skill }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <div>
+              <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Systems Engineering</h3>
+              <div class="mt-2 flex flex-wrap gap-2">
+                {% for skill in skills.systems %}
+                <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">{{ skill }}</span>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
+          <h2 class="text-xl font-semibold">Education</h2>
+          <div class="mt-4 space-y-3 text-sm text-zinc-600 dark:text-zinc-300">
+            {% for edu in education %}
+            <div>
+              <div class="font-medium text-zinc-900 dark:text-zinc-100">{{ edu.institution }}</div>
+              <div>{{ edu.degree }}</div>
+            </div>
+            {% endfor %}
+          </div>
+        </section>
+
+        <section class="rounded-3xl border border-zinc-200 bg-white px-5 py-4 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
+          <h2 class="text-sm font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider">Links</h2>
+          <div class="mt-3 grid gap-1.5 text-sm text-zinc-600 dark:text-zinc-300">
+            <a href="Marcell,%20Jason%20-%20Resume.pdf" class="group inline-flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-zinc-100 dark:hover:bg-white/5">
+              <i data-lucide="download" class="h-3.5 w-3.5 flex-none text-cyan-500"></i>
+              <span>PDF resume</span>
+            </a>
+            <a href="README.md" class="group inline-flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-zinc-100 dark:hover:bg-white/5">
+              <i data-lucide="file-text" class="h-3.5 w-3.5 flex-none text-cyan-500"></i>
+              <span>Markdown resume</span>
+            </a>
+            <a href="{{ common.github_repo }}" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-zinc-100 dark:hover:bg-white/5">
+              <i data-lucide="github" class="h-3.5 w-3.5 flex-none text-cyan-500"></i>
+              <span>Source repo</span>
+            </a>
+            <a href="{{ common.linkedin }}" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-zinc-100 dark:hover:bg-white/5">
+              <i data-lucide="linkedin" class="h-3.5 w-3.5 flex-none text-cyan-500"></i>
+              <span>LinkedIn profile</span>
+            </a>
+          </div>
+        </section>
+
+      </aside>
+    </main>
+  </div>
+
+  <script>
+    const themes = ['system', 'dark', 'light'];
+    let current = localStorage.getItem('theme') || 'system';
+    function applyTheme(t) {
+      current = t;
+      localStorage.setItem('theme', t);
+      const isDark = t === 'dark' || (t === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
+      document.documentElement.classList.toggle('dark', isDark);
+      document.getElementById('icon-system-wrap').classList.toggle('hidden', t !== 'system');
+      document.getElementById('icon-dark-wrap').classList.toggle('hidden', t !== 'dark');
+      document.getElementById('icon-light-wrap').classList.toggle('hidden', t !== 'light');
+      document.getElementById('theme-toggle').title = 'Theme: ' + t;
+    }
+    applyTheme(current);
+    const media = matchMedia('(prefers-color-scheme: dark)');
+    const handleThemeChange = () => { if (current === 'system') applyTheme('system'); };
+    if (media.addEventListener) { media.addEventListener('change', handleThemeChange); }
+    else if (media.addListener) { media.addListener(handleThemeChange); }
+    document.getElementById('theme-toggle').addEventListener('click', () => { applyTheme(themes[(themes.indexOf(current) + 1) % 3]); });
+    lucide.createIcons();
+  </script>
+</body>
+</html>

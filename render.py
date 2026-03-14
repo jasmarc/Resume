@@ -1,32 +1,27 @@
 import yaml
 from jinja2 import Environment, FileSystemLoader
 
-# Load the YAML data
+# Generated files: README.md, resume.tex, index.html
+# Edit the corresponding .j2 templates and run render.py.
+
 with open('resume_common.yaml', 'r') as yaml_file:
-    resume_data = yaml.safe_load(yaml_file)
+    resume_data: dict = yaml.safe_load(yaml_file)
 
-# Load the Jinja2 templates
 env = Environment(loader=FileSystemLoader('./'))
-markdown_template = env.get_template('resume.md.j2')
-latex_template = env.get_template('resume.tex.j2')
 
-# Render the templates with the data
-markdown_output = markdown_template.render(
+render_args = dict(
     common=resume_data,
     experience=resume_data['experience'],
     skills=resume_data['skills'],
-    education=resume_data['education']  # Include education data
-)
-latex_output = latex_template.render(
-    common=resume_data,
-    experience=resume_data['experience'],
-    skills=resume_data['skills'],
-    education=resume_data['education']  # Include education data
+    education=resume_data['education'],
 )
 
-# Save the rendered templates to files
-with open('README.md', 'w') as md_file:
-    md_file.write(markdown_output)
+outputs = {
+    'README.md': env.get_template('resume.md.j2'),
+    'resume.tex': env.get_template('resume.tex.j2'),
+    'index.html': env.get_template('index.html.j2'),
+}
 
-with open('resume.tex', 'w') as tex_file:
-    tex_file.write(latex_output)
+for filename, template in outputs.items():
+    with open(filename, 'w') as f:
+        f.write(template.render(**render_args))
