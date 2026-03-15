@@ -11,7 +11,6 @@
 <body class="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
   <div class="mx-auto max-w-5xl px-5 py-8 sm:px-8 sm:py-10 lg:px-10">
 
-    <!-- Header -->
     <header class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
       <div class="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
         <div class="max-w-3xl">
@@ -43,7 +42,6 @@
             </a>
           </div>
         </div>
-
         <div class="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center lg:flex-col lg:items-end">
           <div class="flex gap-2 self-end">
             <button id="theme-toggle" class="rounded-2xl border border-zinc-200 bg-white p-3 text-zinc-700 transition hover:-translate-y-0.5 hover:bg-zinc-50 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200 dark:hover:bg-white/10" aria-label="Cycle theme">
@@ -66,36 +64,43 @@
       </div>
     </header>
 
-    <!-- Main -->
     <main class="mt-8 grid gap-8 lg:grid-cols-[1.5fr_0.8fr]">
 
-      <!-- Experience -->
       <section class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
         <h2 class="mb-6 text-xl font-semibold">Experience</h2>
         <div class="space-y-8">
-          {% for job in experience %}
+          {%- for job in experience %}
           <article class="{{ 'border-b border-zinc-200 pb-8 dark:border-white/10' if not loop.last else 'pb-0' }}">
-            <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
-              <div>
-                <h3 class="text-lg font-semibold">{{ job.company }}</h3>
-                <p class="text-sm text-zinc-600 dark:text-zinc-300">{{ job.title }} · {{ job.location }}</p>
+            <div class="flex gap-4">
+              {%- if job.logo %}
+              <div class="flex-none h-10 w-10 rounded-xl bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/{{ job.logo }}-color.svg" class="h-7 w-7 object-contain dark:hidden" alt="{{ job.company }}">
+                <img src="logos/{{ job.logo }}-color-dark.svg" class="h-7 w-7 object-contain hidden dark:block" alt="{{ job.company }}">
               </div>
-              <div class="text-sm text-zinc-500 dark:text-zinc-400">{{ job.date }}</div>
+              {%- endif %}
+              <div class="flex-1">
+                <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                  <div>
+                    <h3 class="text-lg font-semibold">{{ job.company }}</h3>
+                    <p class="text-sm text-zinc-600 dark:text-zinc-300">{{ job.title }} · {{ job.location }}</p>
+                  </div>
+                  <div class="text-sm text-zinc-500 dark:text-zinc-400">{{ job.date }}</div>
+                </div>
+              </div>
             </div>
             <ul class="mt-4 space-y-3 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
-              {% for point in job.points %}
+              {%- for point in job.points %}
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>{{ point }}</span>
               </li>
-              {% endfor %}
+              {%- endfor %}
             </ul>
           </article>
-          {% endfor %}
+          {%- endfor %}
         </div>
       </section>
 
-      <!-- Sidebar -->
       <aside class="space-y-8">
 
         <section class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
@@ -104,33 +109,33 @@
             <div>
               <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">AI / ML</h3>
               <div class="mt-2 flex flex-wrap gap-2">
-                {% for skill in skills.ai_ml %}
+                {%- for skill in skills.ai_ml %}
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">{{ skill }}</span>
-                {% endfor %}
+                {%- endfor %}
               </div>
             </div>
             <div>
               <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Languages</h3>
               <div class="mt-2 flex flex-wrap gap-2">
-                {% for skill in skills.languages %}
+                {%- for skill in skills.languages %}
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">{{ skill }}</span>
-                {% endfor %}
+                {%- endfor %}
               </div>
             </div>
             <div>
               <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Infrastructure</h3>
               <div class="mt-2 flex flex-wrap gap-2">
-                {% for skill in skills.infrastructure %}
+                {%- for skill in skills.infrastructure %}
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">{{ skill }}</span>
-                {% endfor %}
+                {%- endfor %}
               </div>
             </div>
             <div>
               <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Systems Engineering</h3>
               <div class="mt-2 flex flex-wrap gap-2">
-                {% for skill in skills.systems %}
+                {%- for skill in skills.systems %}
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">{{ skill }}</span>
-                {% endfor %}
+                {%- endfor %}
               </div>
             </div>
           </div>
@@ -138,13 +143,21 @@
 
         <section class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
           <h2 class="text-xl font-semibold">Education</h2>
-          <div class="mt-4 space-y-3 text-sm text-zinc-600 dark:text-zinc-300">
-            {% for edu in education %}
-            <div>
-              <div class="font-medium text-zinc-900 dark:text-zinc-100">{{ edu.institution }}</div>
-              <div>{{ edu.degree }}</div>
+          <div class="mt-4 space-y-4 text-sm text-zinc-600 dark:text-zinc-300">
+            {%- for edu in education %}
+            <div class="flex items-start gap-3">
+              {%- if edu.logo %}
+              <div class="flex-none h-9 w-9 rounded-lg bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/{{ edu.logo }}-color.svg" class="h-6 w-6 object-contain dark:hidden" alt="{{ edu.institution }}">
+                <img src="logos/{{ edu.logo }}-color-dark.svg" class="h-6 w-6 object-contain hidden dark:block" alt="{{ edu.institution }}">
+              </div>
+              {%- endif %}
+              <div>
+                <div class="font-medium text-zinc-900 dark:text-zinc-100">{{ edu.institution }}</div>
+                <div>{{ edu.degree }}</div>
+              </div>
             </div>
-            {% endfor %}
+            {%- endfor %}
           </div>
         </section>
 

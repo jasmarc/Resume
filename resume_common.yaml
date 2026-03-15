@@ -13,6 +13,7 @@ experience:
    company: Amazon
    location: Austin, TX
    role: Software Engineer, WWGST SPICE
+   logo: amazon
    date: 01/2024 - Present
    points:
      - Built an award-winning hackathon POC for enterprise procurement classification that was immediately funded for production; served as technical lead for a team of engineers and data scientists to evolve from an LLM prototype into a scalable classical ML pipeline on AWS SageMaker, now deployed to production processing millions of records with projected annual savings of roughly half a million dollars.
@@ -24,6 +25,7 @@ experience:
    company: Capital One
    location: McLean, VA (Remote)
    role: Lead Software Engineer on the Finance Platform
+   logo: capitalone
    date: 11/2022 - 01/2024
    points:
      - Led a team building a modular ETL platform for large-scale financial forecasting on a fully serverless AWS stack (DynamoDB, Lambda, React).
@@ -33,6 +35,7 @@ experience:
    company: Twilio
    location: San Francisco, CA (Remote)
    role: Tech Lead for the Lookup API Team
+   logo: twilio
    date: 09/2021 - 11/2022
    points:
      - Led a team of eight engineers building Twilio's Lookup API, an industry-leading consumer trust and phone identity platform.
@@ -40,6 +43,7 @@ experience:
  - title: Staff Software Engineer
    company: Lucid, LLC
    location: New Orleans, LA
+   logo: lucid
    date: 05/2018 - 09/2021
    role: Backend API Tech Lead and Engineering Manager
    points:
@@ -48,6 +52,7 @@ experience:
  - title: Software Engineer
    company: Apple, Inc.
    location: Cupertino, CA
+   logo: apple
    date: 10/2011 - 05/2018
    role: Safari and WebKit Operations and Hardware Reliability Engineer
    points:
@@ -57,14 +62,17 @@ experience:
 education:
   - institution: Cornell University
     degree: Masters of Engineering Computer Science
+    logo: cornell
     date: 08/2010 - 05/2011
 
   - institution: United States Marine Corps
     degree: Officer Candidate School
+    logo: usmc
     date: 05/2003 - 06/2003
 
   - institution: Georgia Institute of Technology
     degree: Bachelor of Science Electrical Engineering
+    logo: gatech
     date: 08/2000 - 07/2004
 
 certifications:

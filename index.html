@@ -11,7 +11,6 @@
 <body class="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
   <div class="mx-auto max-w-5xl px-5 py-8 sm:px-8 sm:py-10 lg:px-10">
 
-    <!-- Header -->
     <header class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
       <div class="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
         <div class="max-w-3xl">
@@ -43,7 +42,6 @@
             </a>
           </div>
         </div>
-
         <div class="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center lg:flex-col lg:items-end">
           <div class="flex gap-2 self-end">
             <button id="theme-toggle" class="rounded-2xl border border-zinc-200 bg-white p-3 text-zinc-700 transition hover:-translate-y-0.5 hover:bg-zinc-50 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200 dark:hover:bg-white/10" aria-label="Cycle theme">
@@ -66,133 +64,149 @@
       </div>
     </header>
 
-    <!-- Main -->
     <main class="mt-8 grid gap-8 lg:grid-cols-[1.5fr_0.8fr]">
 
-      <!-- Experience -->
       <section class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
         <h2 class="mb-6 text-xl font-semibold">Experience</h2>
         <div class="space-y-8">
-          
           <article class="border-b border-zinc-200 pb-8 dark:border-white/10">
-            <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
-              <div>
-                <h3 class="text-lg font-semibold">Amazon</h3>
-                <p class="text-sm text-zinc-600 dark:text-zinc-300">Software Engineer · Austin, TX</p>
+            <div class="flex gap-4">
+              <div class="flex-none h-10 w-10 rounded-xl bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/amazon-color.svg" class="h-7 w-7 object-contain dark:hidden" alt="Amazon">
+                <img src="logos/amazon-color-dark.svg" class="h-7 w-7 object-contain hidden dark:block" alt="Amazon">
               </div>
-              <div class="text-sm text-zinc-500 dark:text-zinc-400">01/2024 - Present</div>
+              <div class="flex-1">
+                <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                  <div>
+                    <h3 class="text-lg font-semibold">Amazon</h3>
+                    <p class="text-sm text-zinc-600 dark:text-zinc-300">Software Engineer · Austin, TX</p>
+                  </div>
+                  <div class="text-sm text-zinc-500 dark:text-zinc-400">01/2024 - Present</div>
+                </div>
+              </div>
             </div>
             <ul class="mt-4 space-y-3 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Built an award-winning hackathon POC for enterprise procurement classification that was immediately funded for production; served as technical lead for a team of engineers and data scientists to evolve from an LLM prototype into a scalable classical ML pipeline on AWS SageMaker, now deployed to production processing millions of records with projected annual savings of roughly half a million dollars.</span>
               </li>
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Designed experimental AI-assisted development workflows using coordinated LLM subagents, tmux-orchestrated task graphs, git-worktrees, and ephemeral cloud environments to parallelize engineering workflows; built internal LLM-powered developer tooling integrating codebase context and operational runbooks.</span>
               </li>
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Early leader of an AI initiative across a 50+ engineer organization; created a 14-topic agentic AI workshop series, built internal AI agents and developer tooling, and drove adoption of AI-native development workflows across the department.</span>
               </li>
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Established a department-wide pattern for auto-generated SDKs from OpenAPI specifications, eliminating thousands of lines of manual integration code and standardizing API integrations across multiple systems.</span>
               </li>
-              
             </ul>
           </article>
-          
           <article class="border-b border-zinc-200 pb-8 dark:border-white/10">
-            <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
-              <div>
-                <h3 class="text-lg font-semibold">Capital One</h3>
-                <p class="text-sm text-zinc-600 dark:text-zinc-300">Lead Software Engineer · McLean, VA (Remote)</p>
+            <div class="flex gap-4">
+              <div class="flex-none h-10 w-10 rounded-xl bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/capitalone-color.svg" class="h-7 w-7 object-contain dark:hidden" alt="Capital One">
+                <img src="logos/capitalone-color-dark.svg" class="h-7 w-7 object-contain hidden dark:block" alt="Capital One">
               </div>
-              <div class="text-sm text-zinc-500 dark:text-zinc-400">11/2022 - 01/2024</div>
+              <div class="flex-1">
+                <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                  <div>
+                    <h3 class="text-lg font-semibold">Capital One</h3>
+                    <p class="text-sm text-zinc-600 dark:text-zinc-300">Lead Software Engineer · McLean, VA (Remote)</p>
+                  </div>
+                  <div class="text-sm text-zinc-500 dark:text-zinc-400">11/2022 - 01/2024</div>
+                </div>
+              </div>
             </div>
             <ul class="mt-4 space-y-3 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Led a team building a modular ETL platform for large-scale financial forecasting on a fully serverless AWS stack (DynamoDB, Lambda, React).</span>
               </li>
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Developed open-source Jira CLI and inner-source Feature Toggle CLI adopted company-wide.</span>
               </li>
-              
             </ul>
           </article>
-          
           <article class="border-b border-zinc-200 pb-8 dark:border-white/10">
-            <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
-              <div>
-                <h3 class="text-lg font-semibold">Twilio</h3>
-                <p class="text-sm text-zinc-600 dark:text-zinc-300">Staff Software Engineer · San Francisco, CA (Remote)</p>
+            <div class="flex gap-4">
+              <div class="flex-none h-10 w-10 rounded-xl bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/twilio-color.svg" class="h-7 w-7 object-contain dark:hidden" alt="Twilio">
+                <img src="logos/twilio-color-dark.svg" class="h-7 w-7 object-contain hidden dark:block" alt="Twilio">
               </div>
-              <div class="text-sm text-zinc-500 dark:text-zinc-400">09/2021 - 11/2022</div>
+              <div class="flex-1">
+                <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                  <div>
+                    <h3 class="text-lg font-semibold">Twilio</h3>
+                    <p class="text-sm text-zinc-600 dark:text-zinc-300">Staff Software Engineer · San Francisco, CA (Remote)</p>
+                  </div>
+                  <div class="text-sm text-zinc-500 dark:text-zinc-400">09/2021 - 11/2022</div>
+                </div>
+              </div>
             </div>
             <ul class="mt-4 space-y-3 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Led a team of eight engineers building Twilio's Lookup API, an industry-leading consumer trust and phone identity platform.</span>
               </li>
-              
             </ul>
           </article>
-          
           <article class="border-b border-zinc-200 pb-8 dark:border-white/10">
-            <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
-              <div>
-                <h3 class="text-lg font-semibold">Lucid, LLC</h3>
-                <p class="text-sm text-zinc-600 dark:text-zinc-300">Staff Software Engineer · New Orleans, LA</p>
+            <div class="flex gap-4">
+              <div class="flex-none h-10 w-10 rounded-xl bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/lucid-color.svg" class="h-7 w-7 object-contain dark:hidden" alt="Lucid, LLC">
+                <img src="logos/lucid-color-dark.svg" class="h-7 w-7 object-contain hidden dark:block" alt="Lucid, LLC">
               </div>
-              <div class="text-sm text-zinc-500 dark:text-zinc-400">05/2018 - 09/2021</div>
+              <div class="flex-1">
+                <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                  <div>
+                    <h3 class="text-lg font-semibold">Lucid, LLC</h3>
+                    <p class="text-sm text-zinc-600 dark:text-zinc-300">Staff Software Engineer · New Orleans, LA</p>
+                  </div>
+                  <div class="text-sm text-zinc-500 dark:text-zinc-400">05/2018 - 09/2021</div>
+                </div>
+              </div>
             </div>
             <ul class="mt-4 space-y-3 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Led engineering of new microservices in Python and Golang on AWS, contributing to the first billion-dollar startup acquisition in Louisiana.</span>
               </li>
-              
             </ul>
           </article>
-          
           <article class="pb-0">
-            <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
-              <div>
-                <h3 class="text-lg font-semibold">Apple, Inc.</h3>
-                <p class="text-sm text-zinc-600 dark:text-zinc-300">Software Engineer · Cupertino, CA</p>
+            <div class="flex gap-4">
+              <div class="flex-none h-10 w-10 rounded-xl bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/apple-color.svg" class="h-7 w-7 object-contain dark:hidden" alt="Apple, Inc.">
+                <img src="logos/apple-color-dark.svg" class="h-7 w-7 object-contain hidden dark:block" alt="Apple, Inc.">
               </div>
-              <div class="text-sm text-zinc-500 dark:text-zinc-400">10/2011 - 05/2018</div>
+              <div class="flex-1">
+                <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                  <div>
+                    <h3 class="text-lg font-semibold">Apple, Inc.</h3>
+                    <p class="text-sm text-zinc-600 dark:text-zinc-300">Software Engineer · Cupertino, CA</p>
+                  </div>
+                  <div class="text-sm text-zinc-500 dark:text-zinc-400">10/2011 - 05/2018</div>
+                </div>
+              </div>
             </div>
             <ul class="mt-4 space-y-3 text-sm leading-7 text-zinc-600 dark:text-zinc-300">
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Safari and WebKit Operations — built CI/CD infrastructure, testing, and deployment tooling for Apple's browser engine across iPhone and Mac.</span>
               </li>
-              
               <li class="flex gap-3">
                 <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-cyan-500"></span>
                 <span>Hardware Reliability Engineering — wrote software for automated hardware stress testing and large-scale data analysis that directly informed product development from prototype through launch.</span>
               </li>
-              
             </ul>
           </article>
-          
         </div>
       </section>
 
-      <!-- Sidebar -->
       <aside class="space-y-8">
 
         <section class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
@@ -201,71 +215,44 @@
             <div>
               <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">AI / ML</h3>
               <div class="mt-2 flex flex-wrap gap-2">
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Generative AI</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">LLM Applications</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Agentic Workflows</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Retrieval-Augmented Generation (RAG)</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Classical Machine Learning</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">AWS Bedrock</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">AWS SageMaker</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">scikit-learn</span>
-                
               </div>
             </div>
             <div>
               <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Languages</h3>
               <div class="mt-2 flex flex-wrap gap-2">
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Python</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Java</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Rust</span>
-                
               </div>
             </div>
             <div>
               <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Infrastructure</h3>
               <div class="mt-2 flex flex-wrap gap-2">
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">AWS</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Serverless Architecture (Lambda, DynamoDB, API Gateway)</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Docker</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">CI/CD</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Infrastructure as Code (CloudFormation, CDK)</span>
-                
               </div>
             </div>
             <div>
               <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Systems Engineering</h3>
               <div class="mt-2 flex flex-wrap gap-2">
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">AI-Native Development</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Distributed Systems</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">REST APIs</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">OpenAPI</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">SDK Generation</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Microservices</span>
-                
                 <span class="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">Test Automation</span>
-                
               </div>
             </div>
           </div>
@@ -273,23 +260,37 @@
 
         <section class="rounded-3xl border border-zinc-200 bg-white p-7 shadow-sm dark:border-white/10 dark:bg-white/5 dark:shadow-xl dark:backdrop-blur">
           <h2 class="text-xl font-semibold">Education</h2>
-          <div class="mt-4 space-y-3 text-sm text-zinc-600 dark:text-zinc-300">
-            
-            <div>
-              <div class="font-medium text-zinc-900 dark:text-zinc-100">Cornell University</div>
-              <div>Masters of Engineering Computer Science</div>
+          <div class="mt-4 space-y-4 text-sm text-zinc-600 dark:text-zinc-300">
+            <div class="flex items-start gap-3">
+              <div class="flex-none h-9 w-9 rounded-lg bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/cornell-color.svg" class="h-6 w-6 object-contain dark:hidden" alt="Cornell University">
+                <img src="logos/cornell-color-dark.svg" class="h-6 w-6 object-contain hidden dark:block" alt="Cornell University">
+              </div>
+              <div>
+                <div class="font-medium text-zinc-900 dark:text-zinc-100">Cornell University</div>
+                <div>Masters of Engineering Computer Science</div>
+              </div>
             </div>
-            
-            <div>
-              <div class="font-medium text-zinc-900 dark:text-zinc-100">United States Marine Corps</div>
-              <div>Officer Candidate School</div>
+            <div class="flex items-start gap-3">
+              <div class="flex-none h-9 w-9 rounded-lg bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/usmc-color.svg" class="h-6 w-6 object-contain dark:hidden" alt="United States Marine Corps">
+                <img src="logos/usmc-color-dark.svg" class="h-6 w-6 object-contain hidden dark:block" alt="United States Marine Corps">
+              </div>
+              <div>
+                <div class="font-medium text-zinc-900 dark:text-zinc-100">United States Marine Corps</div>
+                <div>Officer Candidate School</div>
+              </div>
             </div>
-            
-            <div>
-              <div class="font-medium text-zinc-900 dark:text-zinc-100">Georgia Institute of Technology</div>
-              <div>Bachelor of Science Electrical Engineering</div>
+            <div class="flex items-start gap-3">
+              <div class="flex-none h-9 w-9 rounded-lg bg-zinc-100 dark:bg-white/10 flex items-center justify-center overflow-hidden">
+                <img src="logos/gatech-color.svg" class="h-6 w-6 object-contain dark:hidden" alt="Georgia Institute of Technology">
+                <img src="logos/gatech-color-dark.svg" class="h-6 w-6 object-contain hidden dark:block" alt="Georgia Institute of Technology">
+              </div>
+              <div>
+                <div class="font-medium text-zinc-900 dark:text-zinc-100">Georgia Institute of Technology</div>
+                <div>Bachelor of Science Electrical Engineering</div>
+              </div>
             </div>
-            
           </div>
         </section>
 
