@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+{%- macro icon(name, class) -%}
+<svg class="{{ class }}" viewBox="0 0 24 24" fill="currentColor">{% include 'logos/' ~ name ~ '.svg' %}</svg>
+{%- endmacro -%}
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ common.name.first }} {{ common.name.last }} — Resume</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@1.7.0"></script>
   <script>tailwind.config = { darkMode: 'class' };</script>
 </head>
 <body class="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
@@ -32,12 +35,12 @@
             </a>
             <span>•</span>
             <a href="{{ common.linkedin }}" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-1.5 transition duration-150 hover:-translate-y-0.5 hover:text-current">
-              <i data-lucide="linkedin" class="h-4 w-4 transition group-hover:-rotate-3 group-hover:text-cyan-500"></i>
+              {{ icon('linkedin', 'h-4 w-4 transition group-hover:-rotate-3 group-hover:text-cyan-500') }}
               <span>LinkedIn</span>
             </a>
             <span>•</span>
             <a href="{{ common.github }}" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-1.5 transition duration-150 hover:-translate-y-0.5 hover:text-current">
-              <i data-lucide="github" class="h-4 w-4 transition group-hover:-rotate-3 group-hover:text-cyan-500"></i>
+              {{ icon('github', 'h-4 w-4 transition group-hover:-rotate-3 group-hover:text-cyan-500') }}
               <span>GitHub</span>
             </a>
           </div>
@@ -173,11 +176,11 @@
               <span>Markdown resume</span>
             </a>
             <a href="{{ common.github_repo }}" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-zinc-100 dark:hover:bg-white/5">
-              <i data-lucide="github" class="h-3.5 w-3.5 flex-none text-cyan-500"></i>
+              {{ icon('github', 'h-3.5 w-3.5 flex-none text-cyan-500') }}
               <span>Source repo</span>
             </a>
             <a href="{{ common.linkedin }}" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-zinc-100 dark:hover:bg-white/5">
-              <i data-lucide="linkedin" class="h-3.5 w-3.5 flex-none text-cyan-500"></i>
+              {{ icon('linkedin', 'h-3.5 w-3.5 flex-none text-cyan-500') }}
               <span>LinkedIn profile</span>
             </a>
           </div>
