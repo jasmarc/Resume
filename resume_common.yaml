@@ -16,10 +16,10 @@ experience:
    logo: amazon
    date: 01/2024 - Present
    points:
-     - Built an award-winning hackathon POC for enterprise procurement classification that was immediately funded for production; served as technical lead for a team of engineers and data scientists to evolve from an LLM prototype into a scalable classical ML pipeline on AWS SageMaker, now deployed to production processing millions of records with projected annual savings of roughly half a million dollars.
-     - Designed experimental AI-assisted development workflows using coordinated LLM subagents, tmux-orchestrated task graphs, git-worktrees, and ephemeral cloud environments to parallelize engineering workflows; built internal LLM-powered developer tooling integrating codebase context and operational runbooks.
-     - Early leader of an AI initiative across a 50+ engineer organization; created a 14-topic agentic AI workshop series, built internal AI agents and developer tooling, and drove adoption of AI-native development workflows across the department.
-     - Established a department-wide pattern for auto-generated SDKs from OpenAPI specifications, eliminating thousands of lines of manual integration code and standardizing API integrations across multiple systems.
+     - Conceived and built an award-winning hackathon POC for enterprise procurement classification that was immediately funded for production; served as technical lead across engineers and data scientists, evolving the system from an LLM prototype into a scalable classical ML pipeline on AWS SageMaker now processing millions of production records with projected annual savings of roughly half a million dollars.
+     - Drove technical direction for AI-assisted software development across a 50+ engineer organization; created a 14-topic agentic AI workshop series, built internal AI agents and developer tooling, and helped establish AI-native development workflows across the department.
+     - Designed experimental multi-agent engineering workflows using coordinated LLM subagents, tmux-orchestrated task graphs, git worktrees, and ephemeral cloud environments to parallelize software delivery; built internal LLM-powered developer tools grounded in codebase context and operational runbooks.
+     - Established a department-wide API integration pattern based on SDKs auto-generated from OpenAPI specifications, eliminating thousands of lines of handwritten integration code and standardizing service-to-service integrations across multiple systems.
 
  - title: Lead Software Engineer
    company: Capital One
@@ -28,8 +28,8 @@ experience:
    logo: capitalone
    date: 11/2022 - 01/2024
    points:
-     - Led a team building a modular ETL platform for large-scale financial forecasting on a fully serverless AWS stack (DynamoDB, Lambda, React).
-     - Developed open-source Jira CLI and inner-source Feature Toggle CLI adopted company-wide.
+     - Led technical delivery of a modular ETL platform for large-scale financial forecasting on a fully serverless AWS architecture using DynamoDB, Lambda, and React.
+     - Built open-source Jira CLI and inner-source Feature Toggle CLI tooling adopted beyond the immediate team, improving developer workflows across the company.
 
  - title: Staff Software Engineer
    company: Twilio
@@ -38,7 +38,7 @@ experience:
    logo: twilio
    date: 09/2021 - 11/2022
    points:
-     - Led a team of eight engineers building Twilio's Lookup API, an industry-leading consumer trust and phone identity platform.
+     - Served as technical lead for an eight-engineer team building Twilio's Lookup API, an industry-leading consumer trust and phone identity platform; drove backend architecture and execution across a business-critical public API surface.
 
  - title: Staff Software Engineer
    company: Lucid, LLC
@@ -47,7 +47,7 @@ experience:
    date: 05/2018 - 09/2021
    role: Backend API Tech Lead and Engineering Manager
    points:
-     - Led engineering of new microservices in Python and Golang on AWS, contributing to the first billion-dollar startup acquisition in Louisiana.
+     - Led backend architecture and engineering for new Python and Golang microservices on AWS while serving in both technical-lead and engineering-management roles, contributing to the platform growth that preceded Louisiana's first billion-dollar startup acquisition.
 
  - title: Software Engineer
    company: Apple, Inc.
@@ -56,8 +56,8 @@ experience:
    date: 10/2011 - 05/2018
    role: Safari and WebKit Operations and Hardware Reliability Engineer
    points:
-     - Safari and WebKit Operations — built CI/CD infrastructure, testing, and deployment tooling for Apple's browser engine across iPhone and Mac.
-     - Hardware Reliability Engineering — wrote software for automated hardware stress testing and large-scale data analysis that directly informed product development from prototype through launch.
+     - Safari and WebKit Operations — built CI/CD infrastructure, testing systems, and deployment tooling supporting Apple's browser engine across iPhone and Mac development workflows.
+     - Hardware Reliability Engineering — built software for automated hardware stress testing and large-scale reliability data analysis that informed product development from prototype through launch.
 
 education:
   - institution: Cornell University
